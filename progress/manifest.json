@@ -1,0 +1,316 @@
+{
+  "experiment": "ECLIPSE / 003",
+  "startedAt": "2026-10-04T11:45:43.708Z",
+  "frames": [
+    {
+      "stage": "First preview — camera occlusion identified",
+      "frame": "001-first-live-duel.jpg",
+      "capturedAt": "2026-10-04T11:55:32.958Z",
+      "elapsedSeconds": 589.234,
+      "tokenUsageAsOf": "2026-10-04T11:54:06.336Z",
+      "tokens": {
+        "input_tokens": 1182893,
+        "cached_input_tokens": 1075584,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 24793,
+        "reasoning_output_tokens": 4440,
+        "total_tokens": 1207686
+      },
+      "api_equivalent_usd": 0.5701063999999999
+    },
+    {
+      "stage": "Grounded two-hand combat, double-ended staff, heavy rain, detailed masonry, live cost HUD",
+      "frame": "002-grounded-combat-staff-rain.jpg",
+      "capturedAt": "2026-10-04T12:21:11.745Z",
+      "elapsedSeconds": 2128.021,
+      "tokenUsageAsOf": "2026-10-04T12:19:32.477Z",
+      "tokens": {
+        "input_tokens": 4207843,
+        "cached_input_tokens": 4006656,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 84485,
+        "reasoning_output_tokens": 28374,
+        "total_tokens": 4292328
+      },
+      "api_equivalent_usd": 1.6478895999999998
+    },
+    {
+      "stage": "Inverted over-head somersault, grounded anatomy, saber recoil and three-act narrative",
+      "frame": "003-somersault-and-master-choreography.jpg",
+      "capturedAt": "2026-10-04T12:37:30.620Z",
+      "elapsedSeconds": 3106.891,
+      "tokenUsageAsOf": "2026-10-04T12:36:37.521Z",
+      "tokens": {
+        "input_tokens": 7455507,
+        "cached_input_tokens": 7195648,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 125146,
+        "reasoning_output_tokens": 49154,
+        "total_tokens": 7580653
+      },
+      "api_equivalent_usd": 2.4907427999999996
+    },
+    {
+      "stage": "Directed edge-to-center leap, sustained over-shoulder coverage, fluid camera transitions",
+      "frame": "004-directed-shoulder-dash.jpg",
+      "capturedAt": "2026-10-04T13:04:15.160Z",
+      "elapsedSeconds": 4711.432,
+      "tokenUsageAsOf": "2026-10-04T12:58:12.624Z",
+      "tokens": {
+        "input_tokens": 11760043,
+        "cached_input_tokens": 11436544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 171728,
+        "reasoning_output_tokens": 77527,
+        "total_tokens": 11931771
+      },
+      "api_equivalent_usd": 4.033829999999999
+    },
+    {
+      "stage": "Wet rectangular pillar cleave, debris separation, immediate aerial follow-up",
+      "frame": "006-force-pillar-blue-cleave.jpg",
+      "capturedAt": "2026-10-04T13:18:47.024Z",
+      "elapsedSeconds": 5583.296,
+      "tokenUsageAsOf": "2026-10-04T13:14:52.872Z",
+      "tokens": {
+        "input_tokens": 14459463,
+        "cached_input_tokens": 14091648,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 202322,
+        "reasoning_output_tokens": 102368,
+        "total_tokens": 14661785
+      },
+      "api_equivalent_usd": 5.2010248
+    },
+    {
+      "stage": "Staff split, upward disarm and blue/red dual-wield reversal — ghost blade fixed",
+      "frame": "007-split-disarm-and-captured-saber.jpg",
+      "capturedAt": "2026-10-04T13:18:47.416Z",
+      "elapsedSeconds": 5583.655,
+      "tokenUsageAsOf": "2026-10-04T13:14:52.872Z",
+      "tokens": {
+        "input_tokens": 14459463,
+        "cached_input_tokens": 14091648,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 202322,
+        "reasoning_output_tokens": 102368,
+        "total_tokens": 14661785
+      },
+      "api_equivalent_usd": 5.2010248
+    },
+    {
+      "stage": "Guard-breaking hit, rectangular pillar collapse, one-second recovery and wall kick",
+      "frame": "005-pillar-impact-and-recovery.jpg",
+      "capturedAt": "2026-10-04T13:29:08.278Z",
+      "elapsedSeconds": 6204.545,
+      "tokenUsageAsOf": "2026-10-04T13:28:47.923Z",
+      "tokens": {
+        "input_tokens": 16470716,
+        "cached_input_tokens": 15997184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 223154,
+        "reasoning_output_tokens": 117059,
+        "total_tokens": 16693870
+      },
+      "api_equivalent_usd": 5.991757
+    },
+    {
+      "stage": "Three final metallic cuts, slow contact and timed lightning",
+      "frame": "008-final-lightning-and-finishing-cut.jpg",
+      "capturedAt": "2026-10-04T13:29:08.769Z",
+      "elapsedSeconds": 6205.022,
+      "tokenUsageAsOf": "2026-10-04T13:28:47.923Z",
+      "tokens": {
+        "input_tokens": 16470716,
+        "cached_input_tokens": 15997184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 223154,
+        "reasoning_output_tokens": 117059,
+        "total_tokens": 16693870
+      },
+      "api_equivalent_usd": 5.991757
+    },
+    {
+      "stage": "Natural arms-down victory stance, saber holster and cinematic pullout",
+      "frame": "009-natural-victory-stance.jpg",
+      "capturedAt": "2026-10-04T13:29:09.251Z",
+      "elapsedSeconds": 6205.518,
+      "tokenUsageAsOf": "2026-10-04T13:28:47.923Z",
+      "tokens": {
+        "input_tokens": 16470716,
+        "cached_input_tokens": 15997184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 223154,
+        "reasoning_output_tokens": 117059,
+        "total_tokens": 16693870
+      },
+      "api_equivalent_usd": 5.991757
+    },
+    {
+      "stage": "Captured red saber toss with gravity, damped bounces, tumble and ground settling",
+      "frame": "010-discarded-saber-ground-bounce.jpg",
+      "capturedAt": "2026-10-04T13:29:09.775Z",
+      "elapsedSeconds": 6206.038,
+      "tokenUsageAsOf": "2026-10-04T13:28:47.923Z",
+      "tokens": {
+        "input_tokens": 16470716,
+        "cached_input_tokens": 15997184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 223154,
+        "reasoning_output_tokens": 117059,
+        "total_tokens": 16693870
+      },
+      "api_equivalent_usd": 5.991757
+    },
+    {
+      "stage": "Supplied Jedi Experiment soundtrack, onset-conformed slow motion and researched saber sound layers",
+      "frame": "011-local-score-synced-pillar-cut.jpg",
+      "capturedAt": "2026-10-04T13:48:16.046Z",
+      "elapsedSeconds": 7352.316,
+      "tokenUsageAsOf": "2026-10-04T13:47:53.293Z",
+      "tokens": {
+        "input_tokens": 22328159,
+        "cached_input_tokens": 21748864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 260175,
+        "reasoning_output_tokens": 135206,
+        "total_tokens": 22588334
+      },
+      "api_equivalent_usd": 7.148661000000004
+    },
+    {
+      "stage": "Final live clash: linked music at 1×, original rushing/buzzing saber layers and visible token/time/USD ledger",
+      "frame": "012-final-live-score-and-sound-verification.jpg",
+      "capturedAt": "2026-10-04T13:49:32.114Z",
+      "elapsedSeconds": 7428.373,
+      "tokenUsageAsOf": "2026-10-04T13:48:44.714Z",
+      "tokens": {
+        "input_tokens": 22745475,
+        "cached_input_tokens": 22160896,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 261517,
+        "reasoning_output_tokens": 136238,
+        "total_tokens": 23006992
+      },
+      "api_equivalent_usd": 7.213852200000003
+    },
+    {
+      "stage": "Movie end: final pullout, full fade, soundtrack stop at 2:47.759 and explicit replay",
+      "frame": "013-score-and-film-ending.jpg",
+      "capturedAt": "2026-10-04T13:52:54.686Z",
+      "elapsedSeconds": 7630.938,
+      "tokenUsageAsOf": "2026-10-04T13:52:23.521Z",
+      "tokens": {
+        "input_tokens": 24286921,
+        "cached_input_tokens": 23682176,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 267281,
+        "reasoning_output_tokens": 140615,
+        "total_tokens": 24554202
+      },
+      "api_equivalent_usd": 7.463952200000003
+    },
+    {
+      "stage": "Readable upward disarm, multiple airborne spins, full retreat footwork and dedicated wide coverage",
+      "frame": "014-spinning-disarm-and-retreat.jpg",
+      "capturedAt": "2026-10-04T14:18:58.924Z",
+      "elapsedSeconds": 9195.178,
+      "tokenUsageAsOf": "2026-10-04T14:17:28.321Z",
+      "tokens": {
+        "input_tokens": 30262212,
+        "cached_input_tokens": 29575552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 303804,
+        "reasoning_output_tokens": 163371,
+        "total_tokens": 30566016
+      },
+      "api_equivalent_usd": 9.117066600000003
+    },
+    {
+      "stage": "Light fighter steps back, frees his left hand and catches the hilt in a dedicated close shot",
+      "frame": "015-step-back-hilt-catch.jpg",
+      "capturedAt": "2026-10-04T14:18:59.408Z",
+      "elapsedSeconds": 9195.669,
+      "tokenUsageAsOf": "2026-10-04T14:17:28.321Z",
+      "tokens": {
+        "input_tokens": 30262212,
+        "cached_input_tokens": 29575552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 303804,
+        "reasoning_output_tokens": 163371,
+        "total_tokens": 30566016
+      },
+      "api_equivalent_usd": 9.117066600000003
+    },
+    {
+      "stage": "67 alternating blue/red attacks accelerate into the three finishing cuts",
+      "frame": "016-escalating-dual-saber-assault.jpg",
+      "capturedAt": "2026-10-04T14:18:59.871Z",
+      "elapsedSeconds": 9196.132,
+      "tokenUsageAsOf": "2026-10-04T14:17:28.321Z",
+      "tokens": {
+        "input_tokens": 30262212,
+        "cached_input_tokens": 29575552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 303804,
+        "reasoning_output_tokens": 163371,
+        "total_tokens": 30566016
+      },
+      "api_equivalent_usd": 9.117066600000003
+    },
+    {
+      "stage": "Motion-driven air sweep and stereo rain/patter — initial louder mix",
+      "frame": "017-motion-driven-air-wroom-and-heavy-rain.jpg",
+      "capturedAt": "2026-10-04T14:40:36.328Z",
+      "elapsedSeconds": 10492.62,
+      "tokenUsageAsOf": "2026-10-04T14:39:19.958Z",
+      "tokens": {
+        "input_tokens": 33932307,
+        "cached_input_tokens": 33187328,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 340915,
+        "reasoning_output_tokens": 193327,
+        "total_tokens": 34273222
+      },
+      "api_equivalent_usd": 10.629362800000001,
+      "recordedAt": "2026-10-04T14:55:38.148Z",
+      "snapshotNote": "Actual image file capture time; counters reconstructed from completed usage events at or before capture. Screenshot HUD refreshes every eight seconds."
+    },
+    {
+      "stage": "Separate electrical spark/clash bus — initial foreground mix before music-first rebalance",
+      "frame": "018-electric-wire-spark-clash-mix.jpg",
+      "capturedAt": "2026-10-04T14:52:04.396Z",
+      "elapsedSeconds": 11180.688,
+      "tokenUsageAsOf": "2026-10-04T14:50:42.242Z",
+      "tokens": {
+        "input_tokens": 36566253,
+        "cached_input_tokens": 35794176,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 359512,
+        "reasoning_output_tokens": 207243,
+        "total_tokens": 36925765
+      },
+      "api_equivalent_usd": 11.5380794,
+      "recordedAt": "2026-10-04T14:55:38.475Z",
+      "snapshotNote": "Actual image file capture time; counters reconstructed from completed usage events at or before capture. Screenshot HUD refreshes every eight seconds."
+    },
+    {
+      "stage": "Music-first mix: quieter air/contact, brief authored story accents, live score/rain/sparks",
+      "frame": "019-music-first-moment-accent-mix.jpg",
+      "capturedAt": "2026-10-04T14:57:37.355Z",
+      "elapsedSeconds": 11513.647,
+      "tokenUsageAsOf": "2026-10-04T14:57:14.271Z",
+      "tokens": {
+        "input_tokens": 37766703,
+        "cached_input_tokens": 36910208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 370251,
+        "reasoning_output_tokens": 211037,
+        "total_tokens": 38136954
+      },
+      "api_equivalent_usd": 11.975165,
+      "recordedAt": "2026-10-04T14:58:57.308Z",
+      "snapshotNote": "Actual image file capture time; counters reconstructed from completed usage events at or before capture. Screenshot HUD refreshes every eight seconds."
+    }
+  ]
+}

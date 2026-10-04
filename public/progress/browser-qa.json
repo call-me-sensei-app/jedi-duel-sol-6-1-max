@@ -1,0 +1,233 @@
+{
+  "verified_at": "2026-10-04T14:59:21.237Z",
+  "url": "http://127.0.0.1:5175/",
+  "browser": "Codex In-app Browser",
+  "desktop": {
+    "viewport": "1283×1342",
+    "pixel_ratio": 1,
+    "fps": "72–98 FPS in music-first live playback samples",
+    "three_revision": "186",
+    "draw_calls_at_sample": 911,
+    "triangles_at_sample": 376732,
+    "geometries": 253,
+    "textures": 22
+  },
+  "audio": {
+    "context_state": "running",
+    "enabled_by_click": true,
+    "emitted_clash_sounds": 67,
+    "emitted_motion_sweeps": 376,
+    "visual_clash_events": 167,
+    "note": "Motion/contact/rain graph execution and gain envelopes verified, not subjective headphone/speaker calibration."
+  },
+  "console_errors": [],
+  "historical_warnings": [
+    "Earlier 12:15 UTC preview logged redundant BufferGeometry.toNonIndexed warnings. No error messages were present in the final error-log query."
+  ],
+  "checks": [
+    {
+      "name": "Live WebGL scene loads with Three.js r186",
+      "passed": true
+    },
+    {
+      "name": "Timeline scrubbing updates camera and seek-safe story props",
+      "passed": true
+    },
+    {
+      "name": "Intro title disappears during playback after four seconds",
+      "passed": true
+    },
+    {
+      "name": "Paused playback brings the title back",
+      "passed": true
+    },
+    {
+      "name": "Token, development-time and USD ledger remains visible during playback",
+      "passed": true
+    },
+    {
+      "name": "Click enables running Web Audio and subsequent blade contacts emit clash sounds",
+      "passed": true
+    },
+    {
+      "name": "Experiment Log opens, displays measured counters and ten actual screenshots, then closes",
+      "passed": true
+    },
+    {
+      "name": "Score BPM and first-beat offset controls are present at 168 BPM and zero offset",
+      "passed": true
+    },
+    {
+      "name": "Rectangular damaged pillar, recovery brace and kick-off shot are visually checked",
+      "passed": true
+    },
+    {
+      "name": "Split/disarmed red weapon has no ghost rear blade in the inspected frame",
+      "passed": true
+    },
+    {
+      "name": "Ending has arms down and uncrossed, separated feet",
+      "passed": true
+    },
+    {
+      "name": "Discarded saber is airborne on its ground rebound and settles afterward",
+      "passed": true
+    },
+    {
+      "name": "No console errors in the final error-log query",
+      "passed": true
+    },
+    {
+      "name": "Supplied music plays locally at 1× with the revised sound effects",
+      "passed": true
+    },
+    {
+      "name": "Slow motion changes animation clock without pitching or slowing the BGM",
+      "passed": true
+    },
+    {
+      "name": "Final cut landmarks align with selected analyzed soundtrack transients",
+      "passed": true
+    },
+    {
+      "name": "Film fades, stops at the supplied music ending, and restarts explicitly",
+      "passed": true
+    },
+    {
+      "name": "Visible spinning ballistic disarm and purposeful backward footwork",
+      "passed": true
+    },
+    {
+      "name": "Close hilt catch has no positional/orientation handoff pop",
+      "passed": true
+    },
+    {
+      "name": "67 alternating-saber attacks accelerate into the finishing cuts",
+      "passed": true
+    },
+    {
+      "name": "Air wroom follows actual blade-tip motion independently of contact",
+      "passed": true
+    },
+    {
+      "name": "Heavy stereo rain sheets and close wet patter remain active while playing",
+      "passed": true
+    },
+    {
+      "name": "Wire-spark contact retains its separate electrical crackle bus",
+      "passed": true
+    },
+    {
+      "name": "Normal exchanges use quiet supporting foley under the score",
+      "passed": true
+    },
+    {
+      "name": "Major pillar impact briefly accents both layers with gentle music ducking",
+      "passed": true
+    },
+    {
+      "name": "39 tests pass; no console errors in the music-first revision",
+      "passed": true
+    }
+  ],
+  "not_tested": [
+    "Mobile GPU/device performance",
+    "Fullscreen browser integration",
+    "Subjective headphone/speaker mix quality"
+  ],
+  "evidence": [
+    "005-pillar-impact-and-recovery.jpg",
+    "007-split-disarm-and-captured-saber.jpg",
+    "008-final-lightning-and-finishing-cut.jpg",
+    "009-natural-victory-stance.jpg",
+    "010-discarded-saber-ground-bounce.jpg",
+    "011-local-score-synced-pillar-cut.jpg",
+    "012-final-live-score-and-sound-verification.jpg",
+    "013-score-and-film-ending.jpg",
+    "014-spinning-disarm-and-retreat.jpg",
+    "015-step-back-hilt-catch.jpg",
+    "016-escalating-dual-saber-assault.jpg",
+    "017-motion-driven-air-wroom-and-heavy-rain.jpg",
+    "018-electric-wire-spark-clash-mix.jpg",
+    "019-music-first-moment-accent-mix.jpg"
+  ],
+  "score": {
+    "source": "Jedi Experiment.wav",
+    "duration_seconds": 167.76,
+    "linked_locally": true,
+    "music_playing_at_sample": true,
+    "playback_rate_at_sample": 1,
+    "music_seconds_at_sample": 52.95,
+    "authored_seconds_at_sample": 52.931,
+    "sync_landmarks": 304,
+    "method": "Local onset analysis and monotone cubic animation-time conform, not perfect manual downbeat transcription."
+  },
+  "console_error_window": "Music-first audio revision, after 2026-10-04T14:56:00Z",
+  "historical_errors": [
+    {
+      "at": "2026-10-04T13:38:52.986Z",
+      "message": "Missing total-time element during the intermediate HTML/module hot-reload sequence. Resolved when the matching HTML revision loaded."
+    }
+  ],
+  "ending_verification": {
+    "verified_at": "2026-10-04T13:52:54.194535+00:00",
+    "film_ended": true,
+    "paused": true,
+    "authored_seconds": 164.999,
+    "music_seconds": 167.759,
+    "music_playing": false,
+    "restarted_after_check": true
+  },
+  "transfer_revision": {
+    "verified_at": "2026-10-04T14:24:17.659595+00:00",
+    "authored_disarm": 124.285714,
+    "authored_catch": 126.428571,
+    "score_catch": 126.4591,
+    "air_time_seconds": 2.142857,
+    "assault_attacks": 67,
+    "strike_interval_seconds": [
+      0.46,
+      0.235
+    ],
+    "launch_flight_catch_and_assault_cameras": true,
+    "new_test_count": 30,
+    "viewport": "1283×1342",
+    "observed_fps": "57–81 FPS across the inspected shots; 67 FPS in live playback",
+    "live_music_playing": true,
+    "live_music_rate": 1,
+    "console_errors_in_revision": []
+  },
+  "audio_mix_revision": {
+    "verified_at": "2026-10-04T14:59:21.237Z",
+    "test_count": 39,
+    "direction": "Music-first / authored moment accents",
+    "music_base": 0.86,
+    "normal_sample": {
+      "authored_seconds": 31.483,
+      "accent": 0,
+      "swing_gain": 0.24,
+      "contact_gain": 0.26,
+      "music_gain": 0.85,
+      "music_duck": 0.988,
+      "sound_hits": 40,
+      "swing_emissions": 240
+    },
+    "major_impact_sample": {
+      "authored_seconds": 67.166,
+      "accent": 1,
+      "swing_gain": 0.64,
+      "contact_gain": 0.7,
+      "music_gain": 0.823,
+      "music_duck": 0.957,
+      "sound_hits": 67,
+      "swing_emissions": 376
+    },
+    "weather": {
+      "sheets_gain": 0.38,
+      "patter_gain": 0.52,
+      "independent_stereo_buffers": true
+    },
+    "score_rate": 1,
+    "console_errors": []
+  }
+}

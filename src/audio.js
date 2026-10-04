@@ -1,0 +1,56 @@
+/** Original procedural sound. No film samples, network requests or paid audio API. */
+import {RAIN_MIX,rainBuffers} from './rain-audio.js';
+import {FILM_MIX,soundMixAt} from './sound-mix.js';
+export const SWING_MIX=Object.freeze({body:.72,sub:.19,air:.25,duck:FILM_MIX.swingDuckAccent,duration:.30});
+export const CLASH_MIX=Object.freeze({edge:.85,arc:.58,fizz:.32,body:.12,duck:FILM_MIX.clashDuckAccent,master:.52});
+export class DuelAudio{
+  constructor(){this.enabled=false;this.hitCount=0;this.swingCount=0;this.activeSwings=0;this.musicDuck=1;this.mix=soundMixAt(0);this.airEmitAt=new Map();}
+  setDramatics(t){this.mix=soundMixAt(t);}
+  async toggle(){
+    if(!this.ctx)this.init();await this.ctx.resume();this.enabled=!this.enabled;this.master.gain.setTargetAtTime(this.enabled?.42:0,this.ctx.currentTime,.06);this.weatherMaster.gain.setTargetAtTime(this.enabled?.42:0,this.ctx.currentTime,.06);this.clashMaster.gain.setTargetAtTime(this.enabled?CLASH_MIX.master:0,this.ctx.currentTime,.06);return this.enabled;
+  }
+  init(){
+    const ctx=this.ctx=new(window.AudioContext||window.webkitAudioContext)();const output=ctx.createDynamicsCompressor();output.threshold.value=-7;output.knee.value=2;output.ratio.value=12;output.attack.value=.0005;output.release.value=.05;output.connect(ctx.destination);this.master=ctx.createGain();this.master.gain.value=0;const limiter=ctx.createDynamicsCompressor();limiter.threshold.value=-16;limiter.knee.value=12;limiter.ratio.value=4;limiter.attack.value=.002;limiter.release.value=.10;this.master.connect(limiter);limiter.connect(output);
+    // Storm ambience must not disappear whenever the saber-effects compressor clamps a hit.
+    this.weatherMaster=ctx.createGain();this.weatherMaster.gain.value=0;const weatherLimiter=ctx.createDynamicsCompressor();weatherLimiter.threshold.value=-8;weatherLimiter.knee.value=6;weatherLimiter.ratio.value=2;weatherLimiter.attack.value=.01;weatherLimiter.release.value=.25;this.weatherMaster.connect(weatherLimiter);weatherLimiter.connect(output);
+    this.clashMaster=ctx.createGain();this.clashMaster.gain.value=0;const clashLimiter=ctx.createDynamicsCompressor();clashLimiter.threshold.value=-13;clashLimiter.knee.value=4;clashLimiter.ratio.value=5;clashLimiter.attack.value=.0005;clashLimiter.release.value=.065;this.clashMaster.connect(clashLimiter);clashLimiter.connect(output);
+    this.dry=ctx.createGain();this.dry.gain.value=.78;this.dry.connect(this.master);
+    const reverb=ctx.createConvolver(),impulse=ctx.createBuffer(2,ctx.sampleRate*1.45,ctx.sampleRate);for(let c=0;c<2;c++){const p=impulse.getChannelData(c);let s=7431+c;for(let i=0;i<p.length;i++){s=(s*16807)%2147483647;p[i]=(s/1073741823-1)*Math.pow(1-i/p.length,3.6)*.38;}}reverb.buffer=impulse;const wet=ctx.createGain();wet.gain.value=.24;reverb.connect(wet);wet.connect(this.master);this.reverb=reverb;
+    const noise=ctx.createBuffer(1,ctx.sampleRate*2,ctx.sampleRate),p=noise.getChannelData(0);let n=7142;for(let i=0;i<p.length;i++){n=(n*16807)%2147483647;p[i]=n/1073741823-1;}this.noise=noise;
+    this.hums=[0,1].map(i=>{const gain=ctx.createGain();gain.gain.value=.026;gain.connect(this.dry);const filter=ctx.createBiquadFilter();filter.type='lowpass';filter.frequency.value=600;filter.connect(gain);const oscillator=ctx.createOscillator();oscillator.type='sawtooth';oscillator.frequency.value=i?78:112;oscillator.connect(filter);oscillator.start();return{gain,filter,oscillator};});
+    const weather=rainBuffers(ctx);this.rain={};
+    for(const [name,buffer,cutoff]of [['sheet',weather.sheets,5600],['patter',weather.patter,7200]]){const source=ctx.createBufferSource(),high=ctx.createBiquadFilter(),low=ctx.createBiquadFilter(),gain=ctx.createGain();source.buffer=buffer;source.loop=true;high.type='highpass';high.frequency.value=name==='sheet'?280:650;low.type='lowpass';low.frequency.value=cutoff;low.Q.value=.55;gain.gain.value=0;source.connect(high);high.connect(low);low.connect(gain);gain.connect(this.weatherMaster);source.start();this.rain[name]={source,filter:low,gain};}
+    const bind=ctx.createBufferSource();bind.buffer=noise;bind.loop=true;const bindFilter=ctx.createBiquadFilter();bindFilter.type='bandpass';bindFilter.frequency.value=2300;bindFilter.Q.value=.55;this.bindGain=ctx.createGain();this.bindGain.gain.value=0;bind.connect(bindFilter);bindFilter.connect(this.bindGain);this.bindGain.connect(this.clashMaster);bind.start();
+  }
+  pulseNoise(duration,gain,freq,kind='bandpass'){
+    const c=this.ctx,at=c.currentTime,source=c.createBufferSource();source.buffer=this.noise;const f=c.createBiquadFilter();f.type=kind;f.frequency.setValueAtTime(freq*.55,at);f.frequency.exponentialRampToValueAtTime(freq,at+.025);f.frequency.exponentialRampToValueAtTime(Math.max(90,freq*.24),at+duration);f.Q.value=.8;const g=c.createGain();g.gain.setValueAtTime(.0001,at);g.gain.linearRampToValueAtTime(gain,at+.009);g.gain.exponentialRampToValueAtTime(.0001,at+duration);source.connect(f);f.connect(g);g.connect(this.dry);g.connect(this.reverb);source.start(at,(this.swingCount*.137)%1.4);source.stop(at+duration+.02);source.onended=()=>{source.disconnect();f.disconnect();g.disconnect();};
+  }
+  clash(power=1,sever=false,binding=false,pan=0){
+    if(!this.enabled)return;this.hitCount++;const c=this.ctx,at=c.currentTime;this.lastClash=at;this.lastClashDuck=this.mix.clashDuck;
+    const bus=c.createGain(),panner=c.createStereoPanner();panner.pan.value=pan;bus.gain.value=Math.min(1.5,power)*(binding?.26:1)*this.mix.clash;bus.connect(panner);panner.connect(this.clashMaster);const send=c.createGain();send.gain.value=.23;bus.connect(send);send.connect(this.reverb);
+    // Contact is an electrical crack/sizzle with low-end weight. The motor "wroom" belongs to swings.
+    const tail=sever?.24:.18,layers=[{duration:.055,gain:CLASH_MIX.edge,freq:5200,q:.60,type:'bandpass',attack:.0008},{duration:tail,gain:CLASH_MIX.arc,freq:3600+(this.hitCount%4)*180,q:.80,type:'bandpass',attack:.0015},{duration:.13,gain:CLASH_MIX.fizz,freq:1600,q:.55,type:'highpass',attack:.001}];
+    layers.forEach((l,i)=>{const source=c.createBufferSource();source.buffer=this.noise;const filter=c.createBiquadFilter();filter.type=l.type;filter.frequency.value=l.freq;filter.Q.value=l.q;const gain=c.createGain();gain.gain.setValueAtTime(.0001,at);gain.gain.linearRampToValueAtTime(l.gain,at+l.attack);for(const [offset,level]of [[.007,.24],[.013,.78],[.025,.31],[.038,.54],[.050,.20],[.071,.36],[.093,.12]])if(offset<l.duration)gain.gain.linearRampToValueAtTime(l.gain*level,at+offset);gain.gain.exponentialRampToValueAtTime(.0001,at+l.duration);source.connect(filter);filter.connect(gain);gain.connect(bus);source.start(at,(this.hitCount*.173+i*.317)%1.4);source.stop(at+l.duration+.01);source.onended=()=>{source.disconnect();filter.disconnect();gain.disconnect();};});
+    const weight=c.createOscillator(),weightGain=c.createGain();weight.type='sine';weight.frequency.value=74;weightGain.gain.setValueAtTime(.0001,at);weightGain.gain.linearRampToValueAtTime(binding?.02:CLASH_MIX.body,at+.002);weightGain.gain.exponentialRampToValueAtTime(.0001,at+.105);weight.connect(weightGain);weightGain.connect(bus);weight.start(at);weight.stop(at+.115);weight.onended=()=>{weight.disconnect();weightGain.disconnect();};
+    setTimeout(()=>{bus.disconnect();panner.disconnect();send.disconnect();},500);
+  }
+  swing(power=1,side=0,pan=0,radialSpeed=0){
+    if(!this.enabled)return;this.swingCount++;this.activeSwings++;
+    const c=this.ctx,at=c.currentTime,duration=SWING_MIX.duration,base=side?84:116,doppler=1+Math.max(-.12,Math.min(.12,radialSpeed/343));this.lastSwingAt=at+.045;this.lastSwingDuck=this.mix.swingDuck;
+    const bus=c.createGain(),panner=c.createStereoPanner(),send=c.createGain();bus.gain.value=Math.max(.6,Math.min(1.35,power))*this.mix.swing;panner.pan.value=Math.max(-.7,Math.min(.7,pan));send.gain.value=.10;bus.connect(panner);panner.connect(this.dry);bus.connect(send);send.connect(this.reverb);
+    const envelope=(param,level)=>{param.setValueAtTime(.0001,at);param.linearRampToValueAtTime(level*.38,at+.020);param.linearRampToValueAtTime(level,at+.060);param.linearRampToValueAtTime(level*.64,at+.140);param.exponentialRampToValueAtTime(.0001,at+duration);};
+    // Keep the swept motor/electrical character; the story director controls its prominence.
+    for(const [ratio,level]of [[1,SWING_MIX.body],[.5,SWING_MIX.sub]]){
+      const motor=c.createOscillator(),filter=c.createBiquadFilter(),gain=c.createGain();motor.type='sawtooth';motor.frequency.setValueAtTime(base*ratio*doppler,at);motor.frequency.exponentialRampToValueAtTime(base*ratio*.90,at+duration);filter.type='lowpass';filter.Q.value=.65;filter.frequency.setValueAtTime(420,at);filter.frequency.exponentialRampToValueAtTime(1450,at+.065);filter.frequency.exponentialRampToValueAtTime(270,at+duration);envelope(gain.gain,level);motor.connect(filter);filter.connect(gain);gain.connect(bus);motor.start(at);motor.stop(at+duration+.02);motor.onended=()=>{motor.disconnect();filter.disconnect();gain.disconnect();};
+    }
+    const air=c.createBufferSource(),airFilter=c.createBiquadFilter(),airGain=c.createGain();air.buffer=this.noise;airFilter.type='bandpass';airFilter.Q.value=.45;airFilter.frequency.setValueAtTime(350,at);airFilter.frequency.exponentialRampToValueAtTime(1800,at+.07);airFilter.frequency.exponentialRampToValueAtTime(400,at+duration);envelope(airGain.gain,SWING_MIX.air);air.connect(airFilter);airFilter.connect(airGain);airGain.connect(bus);air.start(at,(this.swingCount*.137)%1.4);air.stop(at+duration+.02);air.onended=()=>{air.disconnect();airFilter.disconnect();airGain.disconnect();};
+    setTimeout(()=>{bus.disconnect();panner.disconnect();send.disconnect();this.activeSwings=Math.max(0,this.activeSwings-1);},450);
+  }
+  airMotion(voices,moving){
+    if(!this.enabled||!moving)return;
+    const now=this.ctx.currentTime;
+    for(const v of voices){if(v.speed<2.5||now-(this.airEmitAt.get(v.key)??-100)<.22)continue;this.airEmitAt.set(v.key,now);this.swing(.65+Math.min(1,v.speed/18)*.70,v.side,v.pan,v.radial);}
+  }
+  landing(power=1){if(!this.enabled)return;this.pulseNoise(.16,.16*power,380,'lowpass');}
+  update(velocities,playing,binding=false,radial=[]){if(!this.ctx)return;const clashDuck=(this.lastClashDuck||0)*Math.exp(-Math.max(0,this.ctx.currentTime-(this.lastClash??-100))*16),swingDuck=(this.lastSwingDuck||0)*Math.exp(-Math.max(0,this.ctx.currentTime-(this.lastSwingAt??-100))*10);this.musicDuck=1-(this.enabled&&playing?Math.max(clashDuck,swingDuck):0);this.bindGain.gain.setTargetAtTime(binding&&playing?.22*this.mix.clash:0,this.ctx.currentTime,.025);this.rain.sheet.gain.gain.setTargetAtTime(playing?RAIN_MIX.sheet:0,this.ctx.currentTime,.12);this.rain.patter.gain.gain.setTargetAtTime(playing?RAIN_MIX.patter:0,this.ctx.currentTime,.12);this.rain.sheet.filter.frequency.setTargetAtTime(5000+600*Math.sin(this.ctx.currentTime*.47),this.ctx.currentTime,.30);this.hums.forEach((h,i)=>{const v=Math.min(velocities[i]||0,20),doppler=1+Math.max(-.12,Math.min(.12,(radial[i]||0)/343));h.oscillator.frequency.setTargetAtTime((i?78:112)*doppler,this.ctx.currentTime,.018);h.filter.frequency.setTargetAtTime(400+v*80,this.ctx.currentTime,.035);h.gain.gain.setTargetAtTime(playing?.016+v*.003:0,this.ctx.currentTime,.025);});}
+}

@@ -1,0 +1,16 @@
+ECLIPSE · SUNO MUSIC BRIEF
+
+Instrumental cinematic anime sword-duel score, 165 seconds, steady 168 BPM, 4/4. Heavy taiko, relentless staccato strings, dark brass, deep sub-bass, and wordless choir. Brief ominous opening, then explosive alternating attack-and-counter phrases. Escalate through three acts with sharp accents, short tension breaks, and a huge final crescendo. Three separated final orchestral hits, then a haunting sustained ending. No vocals, no lyrics, no tempo changes. Original composition—not a recreation of an existing film score.
+
+Suggested structure:
+0:00–0:02: quiet ominous pickup, immediate attack at beat 5.
+0:02–0:48: light/dark call-and-response, 12-strike attack phrases.
+0:48–1:36: accelerate density, heavier taiko, high brass, aerial attacks.
+1:36–2:28: full choir and brass, staff splits and weapon transfer.
+2:29.286 / 2:31.786 / 2:34.286: three separated final accents.
+2:35–2:45: sustained haunting resolution.
+
+Suno may not honor exact tempo, duration or cue timings. This is a creative target, not a guarantee.
+
+LOCAL SCORE SYNC
+Click ＋ SCORE and select your downloaded audio. Audio stays on your device; it is not uploaded. In Experiment Log, set the actual track BPM and first-beat offset. The audio becomes the master clock, and the fight follows the supplied beat grid. Default: 168 BPM / 0 seconds offset. No automatic beat detection is claimed. Browser autoplay rules require a user click to start sound.

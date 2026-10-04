@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080b0c" />
+    <meta name="description" content="A cinematic, real-time stick-figure saber duel. An experiment in Three.js, choreography, light and darkness." />
+    <title>ECLIPSE — A duel in the ruins</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <main id="app">
+      <div id="scene" aria-label="Animated cinematic duel between a light-side and a dark-side stick figure"></div>
+      <div class="vignette" aria-hidden="true"></div>
+      <div id="film-ending" class="film-ending" aria-hidden="true"><span>ECLIPSE</span><small>DEVELOPED WITH GPT–6.1 SOL · MAX</small></div>
+      <header class="masthead">
+        <a class="brand" href="#" aria-label="Eclipse cinema"><svg viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="16.5" stroke="currentColor"/><path d="m11 25 14-14M11 11l14 14" stroke="currentColor" stroke-width="1.4"/><circle cx="18" cy="18" r="3" fill="#080b0c" stroke="currentColor"/></svg><span>ECLIPSE<span class="brand-sub">REAL-TIME CINEMA</span></span></a>
+        <div class="mast-center"><span class="tiny-dot"></span> AN EXPERIMENT IN LIGHT & MOTION <span class="divider">/</span> 003</div>
+        <button id="report-open" class="text-button">EXPERIMENT LOG <span>↗</span></button>
+      </header>
+      <section class="title-block" aria-label="Scene title">
+        <div class="eyebrow"><span class="short-line"></span> TWO SIDES. ONE FORCE.</div>
+        <h1>A duel<br>in the ruins<span>.</span></h1>
+        <p>Where the light ends,<br>the last battle begins.</p>
+        <div class="scene-credits">PROCEDURAL WORLD <span>·</span> LIVE CHOREOGRAPHY</div>
+      </section>
+      <aside class="scene-info"><span class="live-dot"></span> LIVE RENDER <span class="info-rule"></span><span id="version">THREE.JS R186</span></aside>
+      <aside class="live-meter" aria-label="Live experiment token count, development time and USD cost"><div class="meter-title"><span class="live-dot"></span> LIVE DEVELOPMENT LEDGER</div><div><span>TOKENS · INPUT + OUTPUT</span><strong id="meter-tokens">MEASURING</strong></div><div><span>BUILD TIME</span><strong id="meter-time">00:00</strong></div><div><span>API EQUIVALENT · USD</span><strong id="meter-cost">$—</strong></div><small>Standard rates · not an invoice</small></aside>
+      <div class="fighter-label light"><span class="label-rule"></span><span>01 / LIGHT SIDE</span><strong>THE SENTINEL</strong></div>
+      <div class="fighter-label dark"><span class="label-rule"></span><span>02 / DARK SIDE</span><strong>THE WRAITH</strong></div>
+      <section class="playback" aria-label="Playback controls">
+        <div class="playback-top"><div class="sequence-info"><span class="sequence-number" id="chapter-number">01</span><span><span class="micro">CURRENT SEQUENCE</span><strong id="chapter-name">THE APPROACH</strong></span></div><div class="shot-info"><span class="micro">CAMERA</span><strong id="shot-name">ESTABLISHING WIDE</strong><span id="fps">— FPS</span></div></div>
+        <input id="timeline" class="timeline" type="range" min="0" max="165" step="0.01" value="0" aria-label="Duel timeline" />
+        <div class="transport"><div class="transport-left"><button id="play" class="play-button" aria-label="Pause duel"><svg id="play-icon" viewBox="0 0 20 20"><path d="M6 4v12M14 4v12" stroke="currentColor" stroke-width="3"/></svg></button><button id="restart" class="icon-button" aria-label="Restart duel">↺</button><span class="time"><span id="current-time">00:00</span><span class="slash">/</span><span id="total-time">02:47</span></span><span class="loop-badge" id="beat">168 BPM</span></div><div class="transport-right"><button id="score-load" class="control">＋ SCORE</button><input id="score-file" type="file" accept="audio/*" hidden /><button id="speed" class="control" aria-label="Playback speed"><span class="control-icon">◷</span> <span id="speed-label">1× SPEED</span></button><button id="camera" class="control"><span class="control-icon">⌖</span> <span id="camera-label">DIRECTOR’S CUT</span></button><button id="audio" class="control" aria-pressed="false"><span class="control-icon">♫</span> SOUND OFF</button><button id="fullscreen" class="icon-button" aria-label="Toggle fullscreen">⛶</button></div></div>
+      </section>
+      <footer class="footer"><span>LIGHT IS A CHOICE. DARKNESS IS A CONSEQUENCE.</span><span>DEVELOPED WITH GPT–6.1 SOL · MAX <span class="footer-dot">·</span> THREE.JS <span class="footer-dot">·</span> EXPERIMENT 003</span></footer>
+      <div class="loading" id="loading"><span class="loading-mark">E</span><span>IGNITING THE SCENE</span><small>Building light, matter & motion</small></div>
+      <dialog id="report"><div class="report-head"><span class="eyebrow">EXPERIMENT 003</span><button id="report-close" class="icon-button" aria-label="Close experiment log">×</button></div><h2>The experiment log<span>.</span></h2><p class="report-intro">A live record of the making of Eclipse.</p><div id="report-stats" class="report-stats"></div><p class="report-note">API-equivalent cost, not an invoice. Cached input is billed separately; reasoning is included in output. Completed model steps only. Refresh with <code>npm run usage</code>.</p><h3>LOCAL SCORE · BEAT ALIGNMENT</h3><div class="score-settings"><label>TRACK BPM <input id="score-bpm" type="number" value="168" min="40" max="240" /></label><label>BEAT OFFSET · SECONDS <input id="score-offset" type="number" value="0" min="-20" max="20" step="0.05" /></label></div><p class="report-note">Jedi Experiment is linked locally. Its analyzed onset landmarks drive animation timing without slowing or pitching the music. Changing BPM/offset switches to a manual grid for replacement tracks. No uploads.</p><h3>DEVELOPMENT MILESTONES</h3><div id="milestones"></div><a class="report-link" href="/progress/report.html" target="_blank" rel="noopener">Open full benchmark & evidence ↗</a></dialog>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
