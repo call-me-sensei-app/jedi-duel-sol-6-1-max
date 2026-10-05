@@ -55,18 +55,21 @@ export class Fighter {
     const thorax=v=>{const y=v.y;v.y=0;v.applyAxisAngle(UP,p.torsoTwist);v.y=y;return v;};
     const shoulder=[thorax(P(-.26,shoulderY,p.lean)),thorax(P(.26,shoulderY,p.lean))],rightHand=thorax(P(...p.hand));
     // Both hands share the hilt. Constrain the grip to the intersection of both arm reach spheres.
-    if(p.twoHand)for(let n=0;n<10;n++)for(const s of shoulder){const d=rightHand.clone().sub(s),length=d.length();if(length>.67)rightHand.copy(s).addScaledVector(d.normalize(),.67);else if(length<.37){if(length<1e-6)d.set(0,0,1);rightHand.copy(s).addScaledVector(d.normalize(),.37);}}
+    if(p.twoHand||p.forceCast)for(let n=0;n<10;n++)for(const s of shoulder){const d=rightHand.clone().sub(s),length=d.length();if(length>.67)rightHand.copy(s).addScaledVector(d.normalize(),.67);else if(length<.37){if(length<1e-6)d.set(0,0,1);rightHand.copy(s).addScaledVector(d.normalize(),.37);}}
     const rightArm=solveLimb(shoulder[1],rightHand,thorax(P(.75,1.35,-.10)),.405,.39,10,145);
     const target=this.body.worldToLocal(new THREE.Vector3(...contact));
     const aim=target.sub(rightArm.end).normalize();
-    aim.applyAxisAngle(p.attackPlane==='horizontal'?UP:new THREE.Vector3(1,0,0),(lock?.018:p.attackAngle)*(this.side?1:-1));
+    if(p.bladeRotation&&!lock){aim.applyAxisAngle(new THREE.Vector3(1,0,0),p.bladeRotation[0]*(this.side?1:-1));aim.applyAxisAngle(UP,p.bladeRotation[1]*(this.side?1:-1));}
+    else aim.applyAxisAngle(p.attackPlane==='horizontal'?UP:new THREE.Vector3(1,0,0),(lock?.018:p.attackAngle)*(this.side?1:-1));
     if(p.rearStrike)aim.negate();
     if(p.staffSpin){const a=p.staffSpin.phase;aim.set(Math.cos(a),p.staffSpin.stage===1?.08:Math.sin(a)*.72,p.staffSpin.stage===1?Math.sin(a):.2).normalize();}
-    if(p.activeBlade==='offhand')aim.set(.25,.75,-.40).normalize();
+    if(p.activeBlade==='offhand'&&!p.pairedFlow)aim.set(.25,.75,-.40).normalize();
     if(p.saberAim)aim.set(...p.saberAim).normalize();
+    if(p.forceGuard)aim.lerp(new THREE.Vector3(.10,.88,.37).normalize(),p.guardBlend).normalize();
+    if(p.pairedFlow&&p.flowBlend<1)aim.lerp(new THREE.Vector3(.10,.87,.40).normalize(),1-p.flowBlend).normalize();
     const recoilAge=t-(this.recoilAt??-100),recoilAngle=recoilAge>=0&&recoilAge<.3?this.recoilPower*Math.exp(-recoilAge*13)*Math.sin(recoilAge*43):0;aim.applyAxisAngle(new THREE.Vector3(0,0,1),recoilAngle);
-    if(p.chapter===0&&t<1.5||p.chapter===5&&t%48>44)aim.set(this.side?-.55:.38,.8,.28).normalize();
-    const leftGrip=p.twoHand?rightArm.end.clone().addScaledVector(aim,-.12):thorax(P(...p.offhand));
+    if(t<1.10)aim.set(this.side?-.55:.38,.8,.28).normalize();
+    const sharedGrip=rightArm.end.clone().addScaledVector(aim,-.12),leftGrip=p.twoHand?sharedGrip:p.forceCast?sharedGrip.clone().lerp(thorax(P(...p.offhand)),p.forceReach):thorax(P(...p.offhand));
     const leftArm=solveLimb(shoulder[0],leftGrip,thorax(P(-.75,1.35,-.10)),.405,.39,10,145);
     const arms=[leftArm,rightArm];
     const elbows=arms.map(a=>a.joint),wrists=arms.map(a=>a.end);
@@ -81,7 +84,7 @@ export class Fighter {
     this.root.updateMatrixWorld(true);
     this.saber.quaternion.setFromUnitVectors(UP,aim);this.blade.scale.y=Math.max(.001,p.ignite);this.light.intensity=5.5*p.ignite;
     if(this.rearBlade){const staff=p.weaponMode==='staff';this.rearBlade.visible=staff;this.rearLight.intensity=staff?2.5:0;this.saber.getObjectByName('staff-coupling').visible=staff;}
-    if(this.offhandSaber){this.offhandSaber.visible=p.weaponMode==='dual'||p.weaponMode==='captured-dual';this.offhandSaber.position.copy(wrists[0]);const leftAim=this.body.worldToLocal(new THREE.Vector3(...contact)).sub(wrists[0]).normalize();leftAim.applyAxisAngle(UP,-p.attackAngle*(p.activeBlade==='offhand'?1.15:.8));if(p.activeBlade==='primary')leftAim.set(-.65,.35,.10).normalize();if(p.offhandAim)leftAim.set(...p.offhandAim).normalize();if(p.afterFight)leftAim.set(-.15,-.45,.90).normalize();leftAim.applyAxisAngle(new THREE.Vector3(0,0,1),-recoilAngle*.8);this.offhandSaber.quaternion.setFromUnitVectors(UP,leftAim);}
+    if(this.offhandSaber){this.offhandSaber.visible=p.weaponMode==='dual'||p.weaponMode==='captured-dual';this.offhandSaber.position.copy(wrists[0]);const leftAim=this.body.worldToLocal(new THREE.Vector3(...contact)).sub(wrists[0]).normalize();if(p.offhandRotation){leftAim.applyAxisAngle(new THREE.Vector3(1,0,0),-p.offhandRotation[0]);leftAim.applyAxisAngle(UP,-p.offhandRotation[1]);}else leftAim.applyAxisAngle(UP,-p.attackAngle*(p.activeBlade==='offhand'?1.15:.8));if(p.activeBlade==='primary'&&!p.pairedFlow)leftAim.set(-.65,.35,.10).normalize();if(p.pairedFlow&&p.flowBlend<1)leftAim.lerp(new THREE.Vector3(-.65,.35,.10).normalize(),1-p.flowBlend).normalize();if(p.offhandAim)leftAim.set(...p.offhandAim).normalize();if(p.afterFight)leftAim.set(-.15,-.45,.90).normalize();leftAim.applyAxisAngle(new THREE.Vector3(0,0,1),-recoilAngle*.8);this.offhandSaber.quaternion.setFromUnitVectors(UP,leftAim);}
     this.root.updateMatrixWorld(true);this.blade.localToWorld(this.base.set(0,0,0));this.blade.localToWorld(this.tip.set(0,1.25,0));
     if(this.rearBlade){this.rearBlade.scale.y=Math.max(.001,p.ignite);this.root.updateMatrixWorld(true);this.rearBlade.localToWorld(this.rearBase.set(0,0,0));this.rearBlade.localToWorld(this.rearTip.set(0,1.12,0));}
     if(this.offhandSaber){const b=this.offhandSaber.getObjectByName('front-blade');b.localToWorld(this.offhandBase.set(0,0,0));b.localToWorld(this.offhandTip.set(0,1.25,0));}

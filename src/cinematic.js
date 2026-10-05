@@ -1,5 +1,6 @@
 import {smooth,BEAT} from './choreography.js';
-export const FINAL_CUTS=[418*BEAT,425*BEAT,432*BEAT];
+import {FINAL_CUTS} from './story-times.js';
+export {FINAL_CUTS};
 /** Speed ramps slow the spectacle, not the attack's authored physical arc. */
 export function cinematicRate(t){
   const windows=[{a:67.06,b:67.25,rate:.35},{a:88.94,b:89.32,rate:.24},...FINAL_CUTS.map(c=>({a:c-.10,b:c+.16,rate:.20}))];

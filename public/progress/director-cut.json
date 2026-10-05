@@ -1,0 +1,89 @@
+{
+  "duration_seconds": 90,
+  "cues": [
+    {
+      "authored": 0,
+      "music": 0
+    },
+    {
+      "authored": 90,
+      "music": 90
+    }
+  ],
+  "source_duration_seconds": 165,
+  "source_music_duration_seconds": 167.76,
+  "audio": "/audio/jedi-experiment-90s.mp3",
+  "method": "Single-pass editorial cut; discarded repeated acts and stationary exchanges. Music clips retain their original pitch and tempo. 18ms edge fades prevent edit clicks; no repeated jump-back/dash segment.",
+  "segments": [
+    {
+      "index": 0,
+      "label": "OPENING / ATTACK & ANSWER",
+      "sourceIn": 0,
+      "sourceOut": 8.35,
+      "musicIn": 2.441229298710823e-9,
+      "musicOut": 8.349644558007135,
+      "start": 0,
+      "end": 8.349644555565906
+    },
+    {
+      "index": 1,
+      "label": "FLANK / ONE BIND-BREAK & DASH",
+      "sourceIn": 11.35,
+      "sourceOut": 41.8,
+      "musicIn": 11.351866738350367,
+      "musicOut": 41.83042593314427,
+      "start": 8.349644555565906,
+      "end": 38.828203750359805
+    },
+    {
+      "index": 2,
+      "label": "PILLAR IMPACT / RECOVERY & RETURN",
+      "sourceIn": 65.6,
+      "sourceOut": 70.4,
+      "musicIn": 65.61068307778214,
+      "musicOut": 70.40999240926817,
+      "start": 38.828203750359805,
+      "end": 43.627513081845834
+    },
+    {
+      "index": 3,
+      "label": "FORCE PILLAR / CLEAVE & PURSUIT",
+      "sourceIn": 86.1,
+      "sourceOut": 92.3,
+      "musicIn": 86.10280084183788,
+      "musicOut": 92.32771089698306,
+      "start": 43.627513081845834,
+      "end": 49.85242313699102
+    },
+    {
+      "index": 4,
+      "label": "STAFF SPLIT / TWO-BLADE COUNTER",
+      "sourceIn": 115.66,
+      "sourceOut": 117.8,
+      "musicIn": 115.84902732350514,
+      "musicOut": 117.95122609413576,
+      "start": 49.85242313699102,
+      "end": 51.95462190762164
+    },
+    {
+      "index": 5,
+      "label": "DISARM / CATCH & ADVANCING ASSAULT",
+      "sourceIn": 123.55,
+      "sourceOut": 137,
+      "musicIn": 123.62807728130485,
+      "musicOut": 137.74324897433752,
+      "start": 51.95462190762164,
+      "end": 66.06979360065431
+    },
+    {
+      "index": 6,
+      "label": "FINAL DRIVE / THREE CUTS & EPILOGUE",
+      "sourceIn": 142.70397083402392,
+      "sourceOut": 165,
+      "musicIn": 143.82979360065428,
+      "musicOut": 167.76,
+      "start": 66.06979360065431,
+      "end": 90
+    }
+  ]
+}

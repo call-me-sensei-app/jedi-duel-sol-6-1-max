@@ -1,0 +1,75 @@
+{
+  "verified_at": "2026-10-05T00:01:25.245Z",
+  "reference": "https://x.com/DanielZambrini/status/2105756266211729596/video/1",
+  "reference_method": "Browser inspection of the Opus-labelled video segment; qualitative direction, not a blinded or frame-matched quality test.",
+  "authored_attack_beats": 496,
+  "sampled_geometric_contacts": 477,
+  "prior_committed_beats": 297,
+  "prior_committed_contacts": 233,
+  "connected_ordinary_events": 392,
+  "assault_events": 93,
+  "parries": [
+    "high/roof",
+    "outside/cross-body",
+    "low/rising",
+    "side/hanging"
+  ],
+  "final_cut_span_authored_seconds": 2.142857142857139,
+  "force_lightning": {
+    "volley_inspected_at": 40.94,
+    "pillar_playback_sample_at": 87.53,
+    "segments": 91,
+    "hand_and_target_anchored": true,
+    "localized_rain_ripple_splash_lighting": true
+  },
+  "score_rate": 1,
+  "score_landmarks": 515,
+  "test_count": 52,
+  "pose_samples": 6600,
+  "console_errors_in_final_revision": [],
+  "timer": "Logged active development; overnight idle excluded from on-screen build time. Wall elapsed retained separately.",
+  "ordinary_clock_rate_range": {
+    "before": [
+      0.4493503737474924,
+      2.7054066883067662
+    ],
+    "after": [
+      0.7447895784196135,
+      1.257488368867854
+    ],
+    "method": "Central difference over ±2ms, sampled every 10ms in music time, outside intentional set-piece, transfer and ending ranges."
+  },
+  "revision_scope": "Prior 165-second source revision. Current presented 90-second cut is documented in director_cut_revision.",
+  "director_cut_revision": {
+    "verified_at": "2026-10-05T01:20:35.860Z",
+    "duration_seconds": 90,
+    "sections": 7,
+    "shots": 34,
+    "shared_backward_leap_count": 1,
+    "shared_forward_dash_count": 1,
+    "retained_attack_beats": 279,
+    "sampled_blade_contacts": 268,
+    "retained_paired_cuts": 128,
+    "source_assault_events": 166,
+    "source_strike_gap_seconds": [
+      0.2,
+      0.11
+    ],
+    "first_film_strike_gap_seconds": 0.21342669295842143,
+    "last_film_strike_gap_seconds": 0.10861664846072472,
+    "hand_path_lateral_span_metres": 0.7564,
+    "blade_yaw_chamber_radians": [
+      -1.83,
+      1.83
+    ],
+    "torso_twist_range_radians": [
+      -0.8456,
+      0.8456
+    ],
+    "music_pitch_and_tempo": "original",
+    "test_count": 62,
+    "pose_samples": 3600,
+    "latest_evidence": "029-wild-left-right-two-sword-sweeps.jpg",
+    "limitations": "Procedural pose parameters, not motion-capture measurements or proof of artistic quality."
+  }
+}

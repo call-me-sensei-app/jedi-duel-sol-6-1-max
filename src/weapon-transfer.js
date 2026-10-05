@@ -1,20 +1,21 @@
 /** A readable, causally connected disarm → retreat → catch → pressure sequence. */
 const beat=60/168;
+import {FINAL_ASSAULT_END} from './story-times.js';
 export const TRANSFER={prepare:123.55,launch:348*beat,catch:354*beat,recover:126.70};
-export const ASSAULT={start:TRANSFER.recover,end:148.78};
+export const ASSAULT={start:TRANSFER.recover,end:FINAL_ASSAULT_END};
 const clamp=v=>Math.max(0,Math.min(1,v)),ease=v=>{v=clamp(v);return v*v*(3-2*v);};
 const mix=(a,b,u)=>a+(b-a)*u;
 export function transferPhase(t){return t<TRANSFER.prepare||t>=ASSAULT.start?'':t<TRANSFER.launch+.24?'launch':t<TRANSFER.catch-.54?'flight':'catch';}
 export function flyingSaberPosition(t,from,to){const u=clamp((t-TRANSFER.launch)/(TRANSFER.catch-TRANSFER.launch)),duration=TRANSFER.catch-TRANSFER.launch;return from.map((v,i)=>mix(v,to[i],u)+(i===1?.5*9.81*duration*duration*u*(1-u):0));}
 export const ASSAULT_BEATS=[];
-for(let t=ASSAULT.start+.24;t<ASSAULT.end-.03;){ASSAULT_BEATS.push(t);const u=clamp((t-ASSAULT.start)/(ASSAULT.end-ASSAULT.start));t+=mix(.46,.235,ease(u));}
+for(let t=ASSAULT.start+.24;t<ASSAULT.end-.03;){ASSAULT_BEATS.push(t);const u=clamp((t-ASSAULT.start)/(ASSAULT.end-ASSAULT.start));t+=mix(.20,.11,ease(u));}
 export function assaultStage(t){return t<133.7?0:t<140.7?1:2;}
 const waypoints=[
  {t:TRANSFER.prepare,x:[-1.05,1.05]}, {t:TRANSFER.launch+.10,x:[-1.05,1.05]},
  {t:TRANSFER.catch-.27,x:[-2.20,1.05]}, {t:ASSAULT.start,x:[-2.20,1.05]},
  {t:ASSAULT.start+.55,x:[-1.10,1.10]}, {t:130.5,x:[-.15,1.95]},
  {t:135.5,x:[.85,2.95]}, {t:140.5,x:[1.40,3.50]},
- {t:142.0,x:[.84,2.94]}, {t:145.5,x:[-.84,.82]}, {t:ASSAULT.end,x:[-.84,.82]},
+ {t:142.0,x:[.84,2.94]}, {t:145.5,x:[-3.0,-1.34]}, {t:ASSAULT.end,x:[-.84,.82]},
 ];
 export function transferFootwork(t,i,initial){
  const k=Math.max(0,Math.min(waypoints.length-2,waypoints.findLastIndex(w=>t>=w.t))),a=waypoints[k],b=waypoints[k+1],u=clamp((t-a.t)/(b.t-a.t)),distance=b.x[i]-a.x[i],steps=Math.max(1,Math.ceil(Math.abs(distance)/.55)),phase=Math.min(steps-.000001,u*steps),cycle=Math.floor(phase),part=phase-cycle;
@@ -38,5 +39,5 @@ export function applyTransferPose(p,t,i,attack){
    if(t>=TRANSFER.catch){const u=ease((t-TRANSFER.catch)/(ASSAULT.start-TRANSFER.catch));p.offhand=p.offhand.map((v,j)=>mix(v,[-.43,1.50,.48][j],u));p.offhandAim=p.offhandAim.map((v,j)=>mix(v,[-.65,.35,.10][j],u));}
   }else{p.hand=[.25,1.56,.45];p.offhand=[-.40,1.48,.43];p.offhandAim=[.05,.28,.96];p.saberAim=[.1,.78,.54];}
  }
- if(attack.assault){p.crouch=.22+attack.drive*.10;p.pressure=attack.assaultStage;p.lean=i===0?.08+attack.drive*.22:-.08-attack.drive*.18;}
+ if(attack.assault){p.pressure=attack.assaultStage;if(!p.bladeRotation){p.crouch=.22+attack.drive*.10;p.lean=i===0?.08+attack.drive*.22:-.08-attack.drive*.18;}}
 }

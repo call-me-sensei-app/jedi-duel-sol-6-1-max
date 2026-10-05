@@ -1,29 +1,43 @@
 {
-  "verified_at": "2026-10-04T14:24:20.439Z",
+  "verified_at": "2026-10-05T01:41:20.891Z",
   "three_version": "0.186.1",
   "model": "gpt-6.1-sol",
   "reasoning_effort": "max",
-  "duration_seconds": 165,
-  "director_shots": 48,
-  "distinct_camera_types": 17,
-  "authored_attack_beats": 297,
-  "geometric_contacts_at_authored_beats": 233,
+  "duration_seconds": 90,
+  "director_shots": 34,
+  "distinct_camera_types": 16,
+  "authored_attack_beats": 279,
+  "geometric_contacts_at_authored_beats": 268,
   "biomechanics": {
     "sample_interval_seconds": 0.025,
-    "sampled_poses": 6600,
-    "max_two_hand_grip_error_metres": 2.2887833992611187e-16,
-    "max_bone_length_error_metres": 2.969846590872294e-14,
+    "sampled_poses": 3600,
+    "max_two_hand_grip_error_metres": 2.2591401799415137e-16,
+    "max_bone_length_error_metres": 7.771561172376096e-16,
     "max_elbow_flex_degrees": 145,
     "max_knee_flex_degrees": 136.31044192656938,
-    "min_grounded_foot_height_metres": 0.05999999999999939
+    "min_grounded_foot_height_metres": 0.05999999999999961
   },
   "narrative": {
+    "split": 49.90649581423963,
+    "disarm": 52.680444628754685,
+    "catch": 54.78564462715531,
+    "cuts": [
+      76.14309999887018,
+      77.27180000201912,
+      78.6709999977204
+    ],
+    "toss": 80.03529999871625,
+    "extinguish": 82.4852999995777,
+    "holster": 83.3336036523117,
+    "end": 89.9999999975588
+  },
+  "source_narrative": {
     "split": 115.71428571428572,
     "disarm": 124.28571428571429,
     "catch": 126.42857142857143,
     "cuts": [
-      149.28571428571428,
-      151.78571428571428,
+      152.14285714285714,
+      153.21428571428572,
       154.28571428571428
     ],
     "toss": 155.65,
@@ -33,1784 +47,1955 @@
   },
   "events": [
     {
-      "time": 1.7857142857142858,
-      "gap": 2.482534153247273e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 2.142857142857143,
-      "gap": 3.0727628532573784e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 2.5,
-      "gap": 3.473781053520972e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 2.857142857142857,
-      "gap": 2.618455766672135e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 3.2142857142857144,
-      "gap": 3.188872858294072e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 3.5714285714285716,
-      "gap": 2.339755514347753e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 3.928571428571429,
-      "gap": 2.573069200465649e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 4.285714285714286,
-      "gap": 2.55987824628e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 4.642857142857143,
-      "gap": 2.779024842816778e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 5,
-      "gap": 2.3592239273284576e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 5.357142857142858,
-      "gap": 1.6711069443220838e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 5.714285714285714,
-      "gap": 3.3422138886441676e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 6.428571428571429,
-      "gap": 2.8313748239171495e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 6.785714285714286,
-      "gap": 3.0436364816617974e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 7.142857142857143,
-      "gap": 3.571340232560386e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 7.5,
-      "gap": 3.7470027081099033e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 7.857142857142858,
-      "gap": 0.5903824301218208,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 8.214285714285715,
-      "gap": 0.31636299754794667,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 8.571428571428571,
-      "gap": 0.7257424609053303,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 8.928571428571429,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 9.285714285714286,
-      "gap": 2.3592239273284576e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 9.642857142857142,
-      "gap": 2.498001805406602e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 10,
-      "gap": 7.130536482749599e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 10.357142857142858,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 10.714285714285715,
-      "gap": 2.7336071744532853e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 11.428571428571429,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 11.785714285714286,
-      "gap": 4.775249788392736e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 12.142857142857142,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 12.5,
-      "gap": 2.7336071744532853e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 13.214285714285715,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 13.571428571428571,
-      "gap": 4.775249788392736e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 14.285714285714286,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 15,
-      "gap": 8.182012274917481e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 16.071428571428573,
-      "gap": 0.06221534994572121,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 17.142857142857142,
-      "gap": 2.482534153247273e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 18.571428571428573,
-      "gap": 2.2887833992611187e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 19.285714285714285,
-      "gap": 5.688200336284365e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 20,
-      "gap": 8.326672684688674e-17,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 21.071428571428573,
-      "gap": 2.5438405243138006e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 22.142857142857142,
-      "gap": 0.20836055313603227,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 23.214285714285715,
-      "gap": 0.0002463765457376985,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 24.285714285714285,
-      "gap": 0.20836055313603227,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 26.071428571428573,
-      "gap": 0.6537882484177454,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 28.214285714285715,
-      "gap": 2.7088361131887196e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 28.92857142857143,
-      "gap": 1.1857187100668868e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 30.357142857142858,
-      "gap": 1.5700924586837752e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 30.714285714285715,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 31.071428571428573,
-      "gap": 2.0014830212433605e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 31.42857142857143,
-      "gap": 4.611102534756203e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 31.785714285714285,
-      "gap": 2.2887833992611187e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 32.142857142857146,
-      "gap": 3.3306690738754696e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 32.85714285714286,
-      "gap": 2.618455766672135e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 33.214285714285715,
-      "gap": 4.972820174300706e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 33.57142857142857,
-      "gap": 2.2729511820139823e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 33.92857142857143,
-      "gap": 3.597533769998862e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 34.642857142857146,
-      "gap": 1.3183898417423734e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 35,
-      "gap": 9.71445146547012e-17,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 35.714285714285715,
-      "gap": 4.996003610813204e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 36.07142857142857,
-      "gap": 3.3422138886441676e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 36.785714285714285,
-      "gap": 3.554447978966673e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 37.142857142857146,
-      "gap": 4.585973723508303e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 37.85714285714286,
-      "gap": 2.9504581591051765e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 38.214285714285715,
-      "gap": 6.77599954797753e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 38.57142857142857,
-      "gap": 5.915585101198027e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 39.285714285714285,
-      "gap": 3.8459253727671276e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 39.642857142857146,
-      "gap": 2.2473876566261383e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 40,
-      "gap": 2.3592239273284576e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 40.35714285714286,
-      "gap": 2.6558837364083264e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 41.07142857142857,
-      "gap": 2.215171238995432e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 42.142857142857146,
-      "gap": 1.1112474618513298e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 43.214285714285715,
-      "gap": 5.578801654593729e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 44.285714285714285,
-      "gap": 0.8937252541035688,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 44.642857142857146,
-      "gap": 1.349232230582454,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 45,
-      "gap": 1.332220243922468,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 45.35714285714286,
-      "gap": 1.1964683001627137,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 45.714285714285715,
-      "gap": 1.338237611989572,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 46.07142857142857,
-      "gap": 1.349232230582454,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 46.42857142857143,
-      "gap": 1.332220243922468,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 46.785714285714285,
-      "gap": 1.1964683001627137,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 47.142857142857146,
-      "gap": 1.338237611989572,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 47.5,
-      "gap": 1.349232230582454,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 49.785714285714285,
-      "gap": 1.942890293094024e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 50.142857142857146,
-      "gap": 1.5301008426393776e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 50.5,
-      "gap": 3.2487068343022356e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 50.857142857142854,
-      "gap": 3.15548059928785e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 51.214285714285715,
-      "gap": 2.4552312978479334e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 51.57142857142857,
-      "gap": 1.3133586739508055e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 51.92857142857143,
-      "gap": 2.830524433501838e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 52.285714285714285,
-      "gap": 1.303699802838727e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 52.642857142857146,
-      "gap": 2.607399605677454e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 53,
-      "gap": 2.383840817285749e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 53.35714285714286,
-      "gap": 3.3422138886441676e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 53.714285714285715,
-      "gap": 2.0595777971499126e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 54.42857142857143,
-      "gap": 3.64275408404521e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 54.62,
-      "gap": 3.6638411145107034e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 54.785714285714285,
-      "gap": 2.2336880404788363e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 55.08,
-      "gap": 2.3714374201337736e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 55.142857142857146,
-      "gap": 6.916653802134305e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 55.5,
-      "gap": 3.5135752366389115e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 55.54,
-      "gap": 5.028663855320258e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 55.85714285714286,
-      "gap": 0.7783588229335211,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 56.214285714285715,
-      "gap": 0.47506733624911235,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 56.42,
-      "gap": 1.1616228146625818,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 56.57142857142857,
-      "gap": 1.102264251259434,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 56.87,
-      "gap": 3.705655205693184e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 56.92857142857143,
-      "gap": 2.237726045655905e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 57.285714285714285,
-      "gap": 2.5476231888929306e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 57.64285714285714,
-      "gap": 3.554447978966673e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 57.78,
-      "gap": 2.618455766672135e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 58,
-      "gap": 2.5438405243138006e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 58.35714285714286,
-      "gap": 5.79553433516819e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 58.64,
-      "gap": 1.5700924586837752e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 58.714285714285715,
-      "gap": 1.3877787807814457e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 59.06,
-      "gap": 2.5438405243138006e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 59.42857142857143,
-      "gap": 5.79553433516819e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 59.785714285714285,
-      "gap": 2.482534153247273e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 59.980000000000004,
-      "gap": 1.3877787807814457e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 60.14285714285714,
-      "gap": 2.830524433501838e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 60.42,
-      "gap": 2.5438405243138006e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 60.5,
-      "gap": 7.2377686124476805e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 60.86,
-      "gap": 2.830524433501838e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 61.214285714285715,
-      "gap": 3.188872858294072e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 61.32,
-      "gap": 2.5438405243138006e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 61.57142857142857,
-      "gap": 2.482534153247273e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 62.285714285714285,
-      "gap": 2.830524433501838e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 63,
-      "gap": 2.237726045655905e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 64.07142857142857,
-      "gap": 0.022127194148022406,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 65.14285714285714,
-      "gap": 2.7194799110210365e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 66.57142857142857,
-      "gap": 1.5502141907943767,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 67.28571428571428,
-      "gap": 4.745000116968753,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 68,
-      "gap": 2.113874189182088,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 69.07142857142857,
-      "gap": 0.9316923758953516,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 70.14285714285714,
-      "gap": 0.20706362580273008,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 71.21428571428572,
-      "gap": 0.0017779304877074248,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 72.28571428571428,
-      "gap": 0.20706362580273008,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 74.07142857142857,
-      "gap": 0.33833159277666786,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 76.21428571428572,
-      "gap": 2.651347637902923e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 76.92857142857143,
-      "gap": 2.423651445728339e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 78.35714285714286,
-      "gap": 3.433175098891678e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 78.71428571428572,
-      "gap": 3.554447978966673e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 79.07142857142857,
-      "gap": 1.5700924586837752e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 79.42857142857143,
-      "gap": 2.482534153247273e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 79.78571428571428,
-      "gap": 2.2887833992611187e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 80.14285714285714,
-      "gap": 3.3306690738754696e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 80.85714285714286,
-      "gap": 4.531581184534698e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 81.21428571428572,
-      "gap": 3.521787733787174e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 81.57142857142857,
-      "gap": 2.665835984225005e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 81.92857142857143,
-      "gap": 3.7238012298709097e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 82.64285714285714,
-      "gap": 3.11864493316497e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 83,
-      "gap": 2.498001805406602e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 83.71428571428572,
-      "gap": 6.713178136967714e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 84.07142857142857,
-      "gap": 7.027150473277823e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 84.78571428571428,
-      "gap": 6.304854800243424e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 85.14285714285714,
-      "gap": 6.938893903907228e-17,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 85.85714285714286,
-      "gap": 3.925231146709438e-17,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 86.21428571428572,
-      "gap": 4.0436549343196473e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 86.57142857142857,
-      "gap": 1.7158548416194432,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 87.28571428571428,
-      "gap": 1.7158548416194432,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 87.64285714285714,
-      "gap": 1.7158548416194432,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 88,
-      "gap": 1.7158548416194432,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 88.35714285714286,
-      "gap": 1.8094021955966986,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 89.07142857142857,
-      "gap": 1.8310863485996336,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 90.14285714285714,
-      "gap": 0.7615300865598095,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 91.21428571428572,
-      "gap": 0.39284572484830094,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 92.28571428571428,
-      "gap": 0.910806727381124,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 92.64285714285714,
-      "gap": 1.332220243922468,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 93,
-      "gap": 1.3766787243169423,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 93.35714285714286,
-      "gap": 1.2001024276642418,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 93.71428571428572,
-      "gap": 1.349232230582454,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 94.07142857142857,
-      "gap": 1.332220243922468,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 94.42857142857143,
-      "gap": 1.3766787243169423,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 94.78571428571428,
-      "gap": 1.2001024276642418,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 95.14285714285714,
-      "gap": 1.349232230582454,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 95.5,
-      "gap": 1.332220243922468,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 97.78571428571429,
-      "gap": 5.028663855320258e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 98.14285714285714,
-      "gap": 1.303699802838727e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 98.5,
-      "gap": 2.5447867175859907e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 98.85714285714286,
-      "gap": 2.4912465244908755e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 99.21428571428571,
-      "gap": 5.11975649256e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 99.57142857142857,
-      "gap": 2.486410087150353e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 99.92857142857143,
-      "gap": 3.2016811410571575e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 100.28571428571429,
-      "gap": 4.679511028695506e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 100.64285714285714,
-      "gap": 4.585973723508303e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 101,
-      "gap": 3.554447978966673e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 101.35714285714286,
-      "gap": 3.7296554733501353e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 101.71428571428571,
-      "gap": 2.4835037038225095e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 102.42857142857143,
-      "gap": 3.316363021242753e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 102.62,
-      "gap": 6.591583993652515e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 102.78571428571429,
-      "gap": 2.951273991599437e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 103.08,
-      "gap": 2.391654643720554e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 103.14285714285714,
-      "gap": 1.3877787807814457e-17,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 103.5,
-      "gap": 3.7470027081099033e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 103.54,
-      "gap": 2.4912465244908755e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 103.85714285714286,
-      "gap": 0.3895332434372388,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 104.21428571428572,
-      "gap": 0.8677872634278905,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 104.42,
-      "gap": 0.8131547946325456,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 104.57142857142857,
-      "gap": 0.8932649703497175,
-      "geometric_contact": false,
-      "attacker": 1
-    },
-    {
-      "time": 104.87,
-      "gap": 2.7755575615628914e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 104.92857142857143,
-      "gap": 1.7772239894833365e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 105.28571428571429,
-      "gap": 3.5821094699185227e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 105.64285714285714,
-      "gap": 5.23691153334427e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 105.78,
-      "gap": 2.3551386880256624e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 106,
-      "gap": 4.847302891456678e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 106.35714285714286,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 106.64,
-      "gap": 4.996003610813204e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 106.71428571428572,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 107.06,
-      "gap": 4.847302891456678e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 107.42857142857143,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 107.78571428571429,
-      "gap": 2.3551386880256624e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 107.98,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 108.14285714285714,
-      "gap": 2.2887833992611187e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 108.42,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 108.5,
-      "gap": 2.7755575615628914e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 108.86,
-      "gap": 2.237726045655905e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 109.21428571428572,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 109.32,
-      "gap": 1.2412670766236366e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 109.57142857142857,
-      "gap": 2.2887833992611187e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 110.28571428571429,
-      "gap": 2.237726045655905e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 111,
+      "time": 1.450238478819374,
+      "source_time": 1.45,
       "gap": 7.301351988545593e-16,
       "geometric_contact": true,
-      "attacker": 1
+      "attacker": 0
     },
     {
-      "time": 112.07142857142857,
-      "gap": 0.004346857137047861,
+      "time": 1.740286175559741,
+      "source_time": 1.74,
+      "gap": 9.373672646716796e-16,
       "geometric_contact": true,
-      "attacker": 1
+      "attacker": 0
     },
     {
-      "time": 113.14285714285714,
+      "time": 1.9803256465354935,
+      "source_time": 1.98,
+      "gap": 1.2412670766236366e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 2.2503700568759815,
+      "source_time": 2.25,
+      "gap": 2.7485378307127106e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 2.480407884651796,
+      "source_time": 2.48,
+      "gap": 3.188872858294072e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 2.7801999971433533,
+      "source_time": 2.79,
+      "gap": 2.3263411494723067e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 3.0404999868501905,
+      "source_time": 3.04,
+      "gap": 1.1324011238168353e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 3.3305476835905568,
+      "source_time": 3.33,
+      "gap": 3.0531133177191805e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 3.5705871545663097,
+      "source_time": 3.5700000000000003,
+      "gap": 1.2902611533826501e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 3.840631564906797,
+      "source_time": 3.8400000000000003,
+      "gap": 3.3422138886441676e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 4.070669392682612,
+      "source_time": 4.07,
       "gap": 2.5438405243138006e-16,
       "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 114.57142857142857,
-      "gap": 8.3820000221454525e-16,
-      "geometric_contact": true,
-      "attacker": 1
-    },
-    {
-      "time": 115.28571428571428,
-      "gap": 4.965068306494546e-16,
-      "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 116,
-      "gap": 3.1574350034780196e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 117.07142857142857,
-      "gap": 1.1102230246251565e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 118.14285714285714,
-      "gap": 0.00017176074223293836,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 119.21428571428572,
-      "gap": 0.0006094962742065598,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 120.28571428571428,
-      "gap": 0.00017176074223293836,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 122.07142857142857,
-      "gap": 0.1739253077822131,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 124.28571428571429,
-      "gap": 0.02061478454517553,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 126.94,
-      "gap": 9.43715081225932e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 127.39992082836771,
-      "gap": 3.775166431889533e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 127.85925689084645,
-      "gap": 4.441434166503682e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 128.317461365471,
-      "gap": 2.530794494087341e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 128.7740160524035,
-      "gap": 3.7238012298709097e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 129.22843334377282,
-      "gap": 2.2301825219878386e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 129.6802577360885,
-      "gap": 2.5296051550047473e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 130.12906690118405,
-      "gap": 1.8044459848467814e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 130.57447233905728,
-      "gap": 2.8290356351845776e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 131.01611964193245,
-      "gap": 1.5265566588595902e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 131.45368840336147,
-      "gap": 9.020562075079397e-17,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 131.88689180926204,
-      "gap": 2.3479724158959924e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 132.31547594955796,
-      "gap": 2.9052345828309734e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 132.73921888967632,
-      "gap": 4.5102810375396984e-17,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 133.1579295407245,
-      "gap": 1.5959455978986625e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 133.57144636588578,
-      "gap": 7.103560251673862e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 133.97963595860867,
-      "gap": 2.6558837364083264e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 134.38239152568562,
-      "gap": 2.2898349882893854e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 134.7796313054772,
-      "gap": 2.2729511820139823e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 135.17129694847716,
-      "gap": 2.237726045655905e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 135.55735188425015,
-      "gap": 2.2422936607558627e-16,
-      "geometric_contact": true,
-      "attacker": 0
-    },
-    {
-      "time": 135.9377796956125,
+      "time": 4.3807203758228574,
+      "source_time": 4.38,
       "gap": 6.245004513516506e-17,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 136.3125825178441,
+      "time": 4.780786167292389,
+      "source_time": 4.78,
+      "gap": 3.4473455676918274e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 5.0408289295504805,
+      "source_time": 5.04,
+      "gap": 1.9081958235744878e-17,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 5.2608651092438965,
+      "source_time": 5.26,
+      "gap": 2.0014830212433605e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 5.56091445406666,
+      "source_time": 5.56,
+      "gap": 1.1443916996305594e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 5.790952281842474,
+      "source_time": 5.79,
+      "gap": 3.1401849173675503e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 6.0609966873005,
+      "source_time": 6.0600000000000005,
+      "gap": 3.7238012298709097e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 6.3321999980136745,
+      "source_time": 6.3100000000000005,
+      "gap": 5.23691153334427e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 6.571080568616745,
+      "source_time": 6.57,
+      "gap": 4.783309287441108e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 6.791116748310161,
+      "source_time": 6.79,
+      "gap": 4.041272810440265e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 7.091166093132923,
+      "source_time": 7.09,
+      "gap": 3.031798407899492e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 7.3212039209087365,
+      "source_time": 7.32,
+      "gap": 6.77599954797753e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 7.591248326366765,
+      "source_time": 7.59,
+      "gap": 2.237726045655905e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 8.018299998692235,
+      "source_time": 8.02,
+      "gap": 0.839886537516438,
+      "geometric_contact": false,
+      "attacker": 0
+    },
+    {
+      "time": 8.267799999746494,
+      "source_time": 8.27,
+      "gap": 0.03553777076401389,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 8.699702116388362,
+      "source_time": 11.7,
+      "gap": 1.1866928732135989e-15,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 8.95974487864645,
+      "source_time": 11.959999999999999,
+      "gap": 4.961673055948955e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 9.179781063222325,
+      "source_time": 12.18,
+      "gap": 8.196123257993793e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 9.479830403162634,
+      "source_time": 12.48,
+      "gap": 1.1491780379324727e-15,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 9.709868235820903,
+      "source_time": 12.71,
+      "gap": 1.1443916996305594e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 9.979912641278936,
+      "source_time": 12.98,
+      "gap": 2.514331927660129e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 10.229953760337086,
+      "source_time": 13.23,
+      "gap": 2.5438405243138006e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 10.489996522595174,
+      "source_time": 13.49,
+      "gap": 2.8066088919804617e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 10.710032702288593,
+      "source_time": 13.71,
+      "gap": 9.453208419344607e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 11.010082047111354,
+      "source_time": 14.010000000000002,
+      "gap": 2.423651445728339e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 11.481377817112953,
+      "source_time": 14.5,
+      "gap": 1.1537776118301384e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 11.75020375132095,
+      "source_time": 14.75,
+      "gap": 1.9064792522595677e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 11.970277818893077,
+      "source_time": 14.96,
+      "gap": 4.783309287441108e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 12.200277763672638,
+      "source_time": 15.200000000000001,
+      "gap": 1.023951298512e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 12.479177816295998,
+      "source_time": 15.49,
+      "gap": 0.24329841654869078,
+      "geometric_contact": false,
+      "attacker": 1
+    },
+    {
+      "time": 12.710361644988879,
+      "source_time": 15.71,
+      "gap": 2.482534153247273e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 12.98040605044691,
+      "source_time": 15.98,
+      "gap": 1.1102230246251565e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 13.230447169505062,
+      "source_time": 16.23,
+      "gap": 8.95090418262362e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 13.440481705998543,
+      "source_time": 16.44,
+      "gap": 3.2235998132808577e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 13.680521181856754,
+      "source_time": 16.68,
+      "gap": 5.551115123125783e-17,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 13.970568878597117,
+      "source_time": 16.97,
+      "gap": 4.611102534756203e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 14.19060505829053,
+      "source_time": 17.189999999999998,
+      "gap": 2.31759316079499e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 14.460649468631026,
+      "source_time": 17.459999999999997,
+      "gap": 3.188872858294072e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 14.710690582806716,
+      "source_time": 17.709999999999997,
+      "gap": 5.297244499711338e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 15.202977819533558,
+      "source_time": 18.18,
+      "gap": 2.0014830212433605e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 15.430809005498887,
+      "source_time": 18.43,
+      "gap": 2.98780625522952e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 15.64084354199236,
+      "source_time": 18.64,
+      "gap": 1.0429598422709816e-15,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 15.880883012968113,
+      "source_time": 18.88,
+      "gap": 4.946122230452747e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 16.17093070970848,
+      "source_time": 19.169999999999998,
       "gap": 2.220446049250313e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 136.68177947778486,
-      "gap": 6.849851696944542e-16,
+      "time": 16.390966894284354,
+      "source_time": 19.389999999999997,
+      "gap": 3.188872858294072e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 137.04540518492553,
-      "gap": 2.45228796256662e-16,
+      "time": 16.661011299742384,
+      "source_time": 19.659999999999997,
+      "gap": 6.286500016609089e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 16.911052418800537,
+      "source_time": 19.909999999999997,
+      "gap": 1.1102230246251565e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 17.12108696017647,
+      "source_time": 20.119999999999997,
+      "gap": 6.206335383118183e-17,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 17.36112643115223,
+      "source_time": 20.359999999999996,
+      "gap": 2.3263411494723067e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 17.65117412789258,
+      "source_time": 20.649999999999995,
+      "gap": 2.9893669801409083e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 137.40350828408248,
-      "gap": 2.2729511820139823e-16,
+      "time": 17.871210312468463,
+      "source_time": 20.869999999999994,
+      "gap": 2.276126435504334e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 137.7561500769695,
+      "time": 18.141254717926493,
+      "source_time": 21.139999999999993,
+      "gap": 4.509747244882934e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 18.415677814786328,
+      "source_time": 21.389999999999993,
+      "gap": 1.138063217752167e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 20.181590238309,
+      "source_time": 23.18,
+      "gap": 2.7755575615628914e-17,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 20.441633000567087,
+      "source_time": 23.44,
+      "gap": 1.0203949608775757e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 20.66166918026051,
+      "source_time": 23.66,
+      "gap": 1.1857187100668868e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 20.96171852508327,
+      "source_time": 23.96,
+      "gap": 2.3714374201337736e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 21.189377819211217,
+      "source_time": 24.19,
+      "gap": 3.433175098891678e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 23.25467781911837,
+      "source_time": 26.25,
+      "gap": 0.011912858081124127,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 23.502136278699616,
+      "source_time": 26.5,
+      "gap": 1.5700924586837752e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 23.71217081519309,
+      "source_time": 26.71,
+      "gap": 3.433175098891678e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 23.95221029105131,
+      "source_time": 26.95,
+      "gap": 6.736447455048117e-17,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 24.242257987791675,
+      "source_time": 27.24,
+      "gap": 2.3551386880256624e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 24.46229416748509,
+      "source_time": 27.459999999999997,
+      "gap": 3.64275408404521e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 24.732338577825573,
+      "source_time": 27.729999999999997,
+      "gap": 2.8441001681421824e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 24.98237969200126,
+      "source_time": 27.979999999999997,
+      "gap": 9.968911115894083e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 25.192414233377207,
+      "source_time": 28.189999999999998,
+      "gap": 6.667118051786499e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 25.43245370435296,
+      "source_time": 28.429999999999996,
+      "gap": 3.1401849173675503e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 25.722501401093325,
+      "source_time": 28.719999999999995,
+      "gap": 1.1322097734007351e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 25.9425375856692,
+      "source_time": 28.939999999999994,
+      "gap": 3.06884301130794e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 26.212581991127223,
+      "source_time": 29.209999999999994,
+      "gap": 8.326672684688674e-17,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 26.462623110185376,
+      "source_time": 29.459999999999994,
+      "gap": 2.8441001681421824e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 26.852687253572505,
+      "source_time": 29.85,
+      "gap": 2.5438405243138006e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 27.1127300158306,
+      "source_time": 30.110000000000003,
+      "gap": 2.3714374201337736e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 27.332766200406475,
+      "source_time": 30.330000000000002,
+      "gap": 2.482534153247273e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 27.632815540346783,
+      "source_time": 30.630000000000003,
+      "gap": 1.2412670766236366e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 27.8628533681226,
+      "source_time": 30.860000000000003,
+      "gap": 2.5438405243138006e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 28.132897773580623,
+      "source_time": 31.130000000000003,
+      "gap": 8.739976911826412e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 28.38293889263877,
+      "source_time": 31.380000000000003,
+      "gap": 3.7238012298709097e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 28.642981654896865,
+      "source_time": 31.640000000000004,
+      "gap": 2.220446049250313e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 28.86301783947274,
+      "source_time": 31.860000000000003,
+      "gap": 3.3306690738754696e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 29.163067179413048,
+      "source_time": 32.160000000000004,
+      "gap": 2.2887833992611187e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 29.410677815463856,
+      "source_time": 32.39,
+      "gap": 2.7755575615628914e-17,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 29.663149412646874,
+      "source_time": 32.660000000000004,
+      "gap": 3.9350319887992495e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 29.913190531705055,
+      "source_time": 32.910000000000004,
+      "gap": 1.531343299291801e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 30.148977815781265,
+      "source_time": 33.17,
+      "gap": 9.185328043700033e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 30.39326947853901,
+      "source_time": 33.39,
+      "gap": 4.783309287441108e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 30.803336908326017,
+      "source_time": 33.8,
+      "gap": 0,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 31.046977817472055,
+      "source_time": 34.05,
+      "gap": 2.7755575615628914e-17,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 31.28637781819795,
+      "source_time": 34.26,
+      "gap": 2.7755575615628914e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 31.503452039735862,
+      "source_time": 34.5,
+      "gap": 2.882983075955557e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 31.795277815600855,
+      "source_time": 34.79,
+      "gap": 4.577566798522237e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 31.994777817833224,
+      "source_time": 35.01,
+      "gap": 1.3877787807814457e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 32.264177816875744,
+      "source_time": 35.28,
+      "gap": 1.9100999153570945e-15,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 32.53362144556827,
+      "source_time": 35.53,
+      "gap": 4.163336342344337e-17,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 32.76307781646726,
+      "source_time": 35.74,
+      "gap": 4.888843483876897e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 32.983695457919964,
+      "source_time": 35.980000000000004,
+      "gap": 1.1102230246251565e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 33.27374314977786,
+      "source_time": 36.27,
+      "gap": 1.5426208345814821e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 33.49377933435373,
+      "source_time": 36.49,
+      "gap": 1.1157603309187458e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 33.76382373981177,
+      "source_time": 36.760000000000005,
+      "gap": 1.1828728184370992e-15,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 34.16987781792646,
+      "source_time": 37.18,
+      "gap": 4.561234287365988e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 34.41927781646373,
+      "source_time": 37.43,
+      "gap": 6.9458293318293e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 34.628777816507494,
+      "source_time": 37.64,
+      "gap": 4.718447854656915e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 34.88817781773861,
+      "source_time": 37.88,
+      "gap": 2.482534153247273e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 35.16757781947496,
+      "source_time": 38.17,
+      "gap": 2.482534153247273e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 35.39409183040725,
+      "source_time": 38.39,
+      "gap": 1.1102230246251565e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 35.664136235865286,
+      "source_time": 38.660000000000004,
+      "gap": 4.710277376051325e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 35.925877815415134,
+      "source_time": 38.910000000000004,
+      "gap": 1.5265566588595902e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 36.124211891416934,
+      "source_time": 39.120000000000005,
+      "gap": 2.486410087150353e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 36.364251362392665,
+      "source_time": 39.36000000000001,
+      "gap": 1.1271805464575138e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 36.65429905913304,
+      "source_time": 39.650000000000006,
+      "gap": 1.1276453170371898e-15,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 36.89367781628157,
+      "source_time": 39.870000000000005,
+      "gap": 1.817513422402428e-15,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 37.14437964916695,
+      "source_time": 40.14000000000001,
+      "gap": 6.329625397139666e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 37.564448727036364,
+      "source_time": 40.56,
+      "gap": 0.010499511708881599,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 37.821577818654475,
+      "source_time": 40.82,
+      "gap": 0.9693730706842872,
+      "geometric_contact": false,
+      "attacker": 1
+    },
+    {
+      "time": 38.044527673870306,
+      "source_time": 41.04,
+      "gap": 0.8494828470309965,
+      "geometric_contact": false,
+      "attacker": 1
+    },
+    {
+      "time": 38.34457701381062,
+      "source_time": 41.339999999999996,
+      "gap": 0.28269040076859,
+      "geometric_contact": false,
+      "attacker": 1
+    },
+    {
+      "time": 38.57461484158644,
+      "source_time": 41.56999999999999,
+      "gap": 6.811435411151494e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 38.84201217329131,
+      "source_time": 65.6137,
+      "gap": 2.4835037038225095e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 39.6570176243945,
+      "source_time": 66.42857142857143,
+      "gap": 0.23746854617057522,
+      "geometric_contact": false,
+      "attacker": 1
+    },
+    {
+      "time": 41.44269662784184,
+      "source_time": 68.21428571428572,
+      "gap": 0.14306028772090337,
+      "geometric_contact": false,
+      "attacker": 0
+    },
+    {
+      "time": 41.778220671806466,
+      "source_time": 68.57142857142857,
+      "gap": 3.4915808093142e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 42.15688050511061,
+      "source_time": 68.92857142857143,
+      "gap": 2.9277281224079604e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 42.51397244374503,
+      "source_time": 69.28571428571429,
+      "gap": 2.5172027167143304e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 42.87106437749692,
+      "source_time": 69.64285714285714,
+      "gap": 3.4420135616613772e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 43.66551224155816,
+      "source_time": 86.14030000000001,
+      "gap": 1.1102230246251565e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 43.86501223890812,
+      "source_time": 86.3537,
+      "gap": 2.237726045655905e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 46.81831333636538,
+      "source_time": 89.28571428571429,
+      "gap": 2.5095850256520014,
+      "geometric_contact": false,
+      "attacker": 0
+    },
+    {
+      "time": 47.33466601133816,
+      "source_time": 89.64285714285714,
+      "gap": 1.2007331144982578,
+      "geometric_contact": false,
+      "attacker": 0
+    },
+    {
+      "time": 47.895912238864724,
+      "source_time": 90.35714285714286,
+      "gap": 3.775166431889533e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 48.594312240688595,
+      "source_time": 91.07142857142857,
+      "gap": 6.713178136967714e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 49.83309692553715,
+      "source_time": 92.28,
+      "gap": 4.355503409735122e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 49.98037355006909,
+      "source_time": 115.78890000000001,
+      "gap": 2.237726045655905e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 50.17261150544516,
+      "source_time": 115.98420000000002,
+      "gap": 2.3551386880256624e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 50.39539581113729,
+      "source_time": 116.20740000000002,
+      "gap": 1.7772239894833365e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 50.65479581236838,
+      "source_time": 116.47710000000002,
+      "gap": 4.726604209672303e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 50.86029535531304,
+      "source_time": 116.68170000000002,
+      "gap": 4.943687995239386e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 51.11379581346648,
+      "source_time": 116.93280000000001,
+      "gap": 2.770565742695592e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 51.33708949141675,
+      "source_time": 117.16530000000002,
+      "gap": 1.8253379971363983e-16,
+      "geometric_contact": true,
+      "attacker": 1
+    },
+    {
+      "time": 52.680444628754685,
+      "source_time": 124.28571428571429,
+      "gap": 0.8988446724151381,
+      "geometric_contact": false,
+      "attacker": 0
+    },
+    {
+      "time": 55.33147529238374,
+      "source_time": 126.94,
+      "gap": 0.17062426604325953,
+      "geometric_contact": false,
+      "attacker": 0
+    },
+    {
+      "time": 55.544901985342165,
+      "source_time": 127.13997503775819,
+      "gap": 4.335559509131367e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 55.75826626583239,
+      "source_time": 127.33989159884132,
+      "gap": 6.77599954797753e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 55.971532257548574,
+      "source_time": 127.53971606340455,
+      "gap": 6.280369834735101e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 56.18495708540786,
+      "source_time": 127.73941542496456,
+      "gap": 3.188872858294072e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 56.39864408664647,
+      "source_time": 127.93895731053838,
+      "gap": 2.2887833992611187e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 56.60547328418818,
+      "source_time": 128.138309999308,
+      "gap": 9.155133597044475e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 56.8085327647417,
+      "source_time": 128.33744243981496,
+      "gap": 8.025154038416283e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 57.02561331882845,
+      "source_time": 128.5363242656936,
+      "gap": 2.7755575615628914e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 57.24712859052937,
+      "source_time": 128.73492580995585,
+      "gap": 2.7755575615628914e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 57.45956594113733,
+      "source_time": 128.933218117844,
+      "gap": 6.77599954797753e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 57.67004115369639,
+      "source_time": 129.1311729582715,
+      "gap": 5.23691153334427e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 57.880922240156224,
+      "source_time": 129.32876283387566,
+      "gap": 1.7772239894833365e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 58.09138525633381,
+      "source_time": 129.52596098970884,
+      "gap": 2.7194799110210365e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 58.30140245521676,
+      "source_time": 129.7227414205974,
+      "gap": 4.577566798522237e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 58.51103110804462,
+      "source_time": 129.9190788772013,
+      "gap": 6.955527313080394e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 58.720095607428846,
+      "source_time": 130.11494887080832,
+      "gap": 2.5438405243138006e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 58.92741598030557,
+      "source_time": 130.3103276769003,
+      "gap": 9.371360918460988e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 59.134201865557145,
+      "source_time": 130.50519233752962,
+      "gap": 4.783309287441108e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 59.34405988164252,
+      "source_time": 130.69952066254677,
+      "gap": 9.757969893912614e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 59.54943064974162,
+      "source_time": 130.8932912297207,
+      "gap": 6.10780345318845e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 59.74302555265848,
+      "source_time": 131.08648338379493,
+      "gap": 1.6653345369377348e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 59.9459943513084,
+      "source_time": 131.27907723452387,
+      "gap": 2.7755575615628914e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 60.1636790559395,
+      "source_time": 131.47105365373392,
+      "gap": 4.742874840267547e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 60.3721577823535,
+      "source_time": 131.66239427145507,
+      "gap": 2.423651445728339e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 60.5742892002944,
+      "source_time": 131.8530814711688,
+      "gap": 2.2887833992611187e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 60.7870295611653,
+      "source_time": 132.04309838421855,
+      "gap": 7.870063977598499e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 60.998953892318525,
+      "source_time": 132.23242888342887,
+      "gap": 3.3051285367689413e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 61.19212780036037,
+      "source_time": 132.4210575759791,
+      "gap": 2.220446049250313e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 61.3792921000603,
+      "source_time": 132.60896979557788,
+      "gap": 7.364386412590295e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 61.56274061440962,
+      "source_time": 132.79615159398338,
+      "gap": 8.759511914735174e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 61.75896486775497,
+      "source_time": 132.9825897319144,
+      "gap": 2.2975179632761384e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 61.97389100280833,
+      "source_time": 133.1682716693963,
+      "gap": 1.1137735304718902e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 62.177747832792875,
+      "source_time": 133.3531855555853,
+      "gap": 2.2887833992611187e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 62.37271685485729,
+      "source_time": 133.53732021811382,
+      "gap": 5.978733960281817e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 62.56825318931607,
+      "source_time": 133.720665151998,
+      "gap": 4.996003610813204e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 62.763077758960435,
+      "source_time": 133.90321050814836,
+      "gap": 2.2887833992611187e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 62.95703914898456,
+      "source_time": 134.08494708152273,
+      "gap": 3.188872858294072e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 63.1500236908696,
+      "source_time": 134.26586629895982,
+      "gap": 5.828670879282072e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 63.340709996020905,
+      "source_time": 134.44596020673032,
+      "gap": 8.326672684688674e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 63.537822666415025,
+      "source_time": 134.62522145784138,
+      "gap": 1.212461268062109e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 63.7442174813803,
+      "source_time": 134.8036432991287,
+      "gap": 1.6653345369377348e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 63.93104809432998,
+      "source_time": 134.9812195581696,
+      "gap": 4.47545209131181e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 64.10412391815566,
+      "source_time": 135.1579446300484,
+      "gap": 4.742874840267547e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 64.2883082629578,
+      "source_time": 135.33381346400483,
+      "gap": 4.0125770192081414e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 64.47669240099617,
+      "source_time": 135.50882154999417,
       "gap": 4.002966042486721e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 138.10340321795277,
-      "gap": 4.695944831791985e-16,
+      "time": 64.66255030613166,
+      "source_time": 135.68296490518688,
+      "gap": 2.2887833992611187e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 138.44535048749944,
-      "gap": 2.582350176184633e-16,
+      "time": 64.84737996060409,
+      "source_time": 135.85624006043378,
+      "gap": 6.866350197783356e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 138.78208364529598,
-      "gap": 1.491862189340054e-16,
+      "time": 65.02997567544003,
+      "source_time": 136.02864404672172,
+      "gap": 2.237726045655905e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 139.11370236371056,
-      "gap": 3.290674871864012e-16,
+      "time": 65.21815917860727,
+      "source_time": 136.20017438164325,
+      "gap": 1.1102230246251565e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 139.44031324118478,
-      "gap": 3.265153280995946e-16,
+      "time": 65.41419044789393,
+      "source_time": 136.3708290559022,
+      "gap": 1.38916586636586e-15,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 139.76202889424928,
-      "gap": 4.949649745064885e-16,
+      "time": 65.59924319166464,
+      "source_time": 136.54060651987623,
+      "gap": 4.002966042486721e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 140.07896712614368,
-      "gap": 0.5553501860024086,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 140.3912501694659,
-      "gap": 0.8078286627063659,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 140.69900399985914,
-      "gap": 0.5287954887571721,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 141.0023577174488,
-      "gap": 0.9164891414317506,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 141.30144299254852,
-      "gap": 0.5553501860024083,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 141.5963935720497,
-      "gap": 0.8078286627063661,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 141.88734484287548,
-      "gap": 0.5287954887571723,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 142.17443344890893,
-      "gap": 0.9072147388643493,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 142.45779695788002,
-      "gap": 0.5480565168009361,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 142.73757357481185,
-      "gap": 0.7292206832369434,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 143.01390189877108,
-      "gap": 0.5153371591828156,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 143.28692071983468,
-      "gap": 0.7858498337606726,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 143.55676885337004,
-      "gap": 0.5258684626733328,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 143.8235850089206,
-      "gap": 0.6377714315745928,
-      "geometric_contact": false,
-      "attacker": 0
-    },
-    {
-      "time": 144.08750769119223,
-      "gap": 2.185751579730777e-16,
+      "time": 65.77505527711475,
+      "source_time": 136.70950567025588,
+      "gap": 3.2159359137519293e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 144.3486751308432,
-      "gap": 2.691897363525767e-16,
+      "time": 65.94609287953938,
+      "source_time": 136.87752583677806,
+      "gap": 1.2573000033218179e-15,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 144.60722524298794,
-      "gap": 2.320383136634458e-16,
+      "time": 66.14591183245534,
+      "source_time": 142.7744749421469,
+      "gap": 4.652682298944613e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 144.86329561153448,
-      "gap": 4.501732759706498e-16,
+      "time": 66.30306746259214,
+      "source_time": 142.91031522544057,
+      "gap": 7.529898907871222e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 145.11702349768,
-      "gap": 1.3279418682041632e-16,
+      "time": 66.4463275423239,
+      "source_time": 143.0454837290722,
+      "gap": 2.9893669801409083e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 145.36854587109386,
-      "gap": 4.833501208402912e-16,
+      "time": 66.57880667987394,
+      "source_time": 143.17998861755564,
+      "gap": 3.1401849173675503e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 145.61799946251674,
-      "gap": 4.324578992944319e-16,
+      "time": 66.71904621194705,
+      "source_time": 143.31383811564845,
+      "gap": 2.8609792490763985e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 145.86552083670233,
-      "gap": 2.607399605677454e-16,
+      "time": 66.86234423814693,
+      "source_time": 143.44704050455292,
+      "gap": 2.0014830212433605e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 146.11124648482152,
-      "gap": 1.1188630228279524e-16,
+      "time": 67.00382586768717,
+      "source_time": 143.5796041182971,
+      "gap": 4.47545209131181e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 146.3553129356406,
-      "gap": 2.498001805406602e-16,
+      "time": 67.14463298557212,
+      "source_time": 143.71153734029215,
+      "gap": 2.482534153247273e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 146.5978568849746,
-      "gap": 4.324578992944319e-16,
+      "time": 67.28477321820219,
+      "source_time": 143.84284860006198,
+      "gap": 1.098801839339723e-15,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 146.83901534310579,
-      "gap": 2.607399605677454e-16,
+      "time": 67.42426204785357,
+      "source_time": 143.97354637014132,
+      "gap": 9.694605782913356e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 147.0789258000464,
-      "gap": 1.1188630228279524e-16,
+      "time": 67.56310964956998,
+      "source_time": 144.1036391631383,
+      "gap": 6.753223014464259e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 147.31772640871569,
-      "gap": 2.498001805406602e-16,
+      "time": 67.70131818139811,
+      "source_time": 144.23313552895777,
+      "gap": 6.304854800243424e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 147.55555618629646,
-      "gap": 4.324578992944319e-16,
+      "time": 67.83889756937634,
+      "source_time": 144.36204405218163,
+      "gap": 1.4752290795525882e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 147.79255523423532,
-      "gap": 2.607399605677454e-16,
+      "time": 67.97585913104359,
+      "source_time": 144.4903733496023,
+      "gap": 2.2887833992611187e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 148.02886497755932,
-      "gap": 1.1188630228279524e-16,
+      "time": 68.11220766585666,
+      "source_time": 144.61813206790595,
+      "gap": 3.433175098891678e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 148.26462842439852,
-      "gap": 2.498001805406602e-16,
+      "time": 68.24740465327983,
+      "source_time": 144.74532888150168,
+      "gap": 4.002966042486721e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 148.49999044683426,
-      "gap": 4.324578992944319e-16,
+      "time": 68.38418563233341,
+      "source_time": 144.8719724904933,
+      "gap": 6.13768602261588e-16,
       "geometric_contact": true,
       "attacker": 0
     },
     {
-      "time": 148.73509808443924,
-      "gap": 2.607399605677454e-16,
+      "time": 68.52517075977647,
+      "source_time": 144.99807161879025,
+      "gap": 3.188872858294072e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 68.65571431497006,
+      "source_time": 145.12363501235427,
+      "gap": 3.3422138886441676e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 68.77663421226094,
+      "source_time": 145.2486714375786,
+      "gap": 2.522552781658974e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 68.90746892799041,
+      "source_time": 145.37318967979658,
+      "gap": 1.099152334353211e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 69.04304061969862,
+      "source_time": 145.49719854191653,
+      "gap": 4.742874840267547e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 69.1720133707824,
+      "source_time": 145.62070684317976,
+      "gap": 2.482534153247273e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 69.30130785635794,
+      "source_time": 145.74372341803917,
+      "gap": 0,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 69.43577357842702,
+      "source_time": 145.8662571151552,
+      "gap": 4.1191555942998253e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 69.5704695474787,
+      "source_time": 145.98831679650687,
+      "gap": 2.482534153247273e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 69.70467007880916,
+      "source_time": 146.1099113366147,
+      "gap": 4.577566798522237e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 69.82771113582538,
+      "source_time": 146.23104962187372,
+      "gap": 3.188872858294072e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 69.94468120223024,
+      "source_time": 146.3517405499936,
+      "gap": 4.2841699744536696e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 70.09112277498582,
+      "source_time": 146.4719930295436,
+      "gap": 3.188872858294072e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 70.24277673359614,
+      "source_time": 146.5918159796006,
+      "gap": 0,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 70.36349652820383,
+      "source_time": 146.71121832949748,
+      "gap": 5.551115123125783e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 70.47680945246833,
+      "source_time": 146.83020901867033,
+      "gap": 3.379462171739212e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 70.58698207701207,
+      "source_time": 146.94879699660217,
+      "gap": 2.2887833992611187e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 70.70658861247006,
+      "source_time": 147.06699122286176,
+      "gap": 4.440892098500626e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 70.8377278715547,
+      "source_time": 147.1848006672355,
+      "gap": 1.2803716525534355e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 70.9625511236082,
+      "source_time": 147.3022343099509,
+      "gap": 3.3422138886441676e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 71.08564769906104,
+      "source_time": 147.4193011419903,
+      "gap": 3.3306690738754696e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 71.21987634847056,
+      "source_time": 147.53601016549308,
+      "gap": 8.326672684688674e-17,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 71.35344518242522,
+      "source_time": 147.65237039424542,
+      "gap": 1.9484335006297032e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 71.47440795746746,
+      "source_time": 147.76839085425632,
+      "gap": 5.438959822042073e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 71.60134042675259,
+      "source_time": 147.8840805844187,
+      "gap": 2.2887833992611187e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 71.74096788405097,
+      "source_time": 147.9994486372548,
+      "gap": 2.7755575615628914e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 71.86133604399043,
+      "source_time": 148.1145040797447,
+      "gap": 3.3306690738754696e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 71.96815290103319,
+      "source_time": 148.22925599423772,
+      "gap": 2.7755575615628914e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 72.08676082723423,
+      "source_time": 148.34371347944557,
+      "gap": 5.438959822042073e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 72.21025275977217,
+      "source_time": 148.4578856515169,
+      "gap": 3.2487068343022356e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 72.3318101547996,
+      "source_time": 148.5717816451929,
+      "gap": 5.900916318210353e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 72.45308257048373,
+      "source_time": 148.68541061504354,
+      "gap": 2.2591401799415137e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 72.57407978638895,
+      "source_time": 148.79878173678412,
+      "gap": 6.684427777288335e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 72.6948116309045,
+      "source_time": 148.91190420867252,
+      "gap": 3.554447978966673e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 72.8152879421844,
+      "source_time": 149.02478725298653,
+      "gap": 2.220446049250313e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 72.9355185876775,
+      "source_time": 149.13744011758172,
+      "gap": 2.636779683484747e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 73.05551347389235,
+      "source_time": 149.24987207753034,
+      "gap": 3.7238012298709097e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 73.17528252198474,
+      "source_time": 149.36209243684118,
+      "gap": 3.7238012298709097e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 73.29483569705275,
+      "source_time": 149.47411053026104,
+      "gap": 8.252325904466732e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 73.41418300325404,
+      "source_time": 149.58593572515866,
+      "gap": 2.2591401799415137e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 73.53368892100525,
+      "source_time": 149.6975774234915,
+      "gap": 2.9893669801409083e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 73.65373410142615,
+      "source_time": 149.8090450638565,
+      "gap": 3.692639165456277e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 73.76451985535567,
+      "source_time": 149.92034812362562,
+      "gap": 2.2887833992611187e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 73.87021488453377,
+      "source_time": 150.0314961211675,
+      "gap": 8.759511914735174e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 73.99615472069121,
+      "source_time": 150.14249861815625,
+      "gap": 5.438959822042073e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 74.12658190248419,
+      "source_time": 150.25336522196918,
+      "gap": 3.3306690738754696e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 74.23726264937659,
+      "source_time": 150.3641055881744,
+      "gap": 1.2021721300496787e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 74.35450686583181,
+      "source_time": 150.47472942311063,
+      "gap": 2.7511642410880956e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 74.49262421286312,
+      "source_time": 150.5852464865607,
+      "gap": 3.554447978966673e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 74.62102359730403,
+      "source_time": 150.6956665945207,
+      "gap": 5.578801654593729e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 74.73794761724196,
+      "source_time": 150.80599962206722,
+      "gap": 1.1866928732135989e-15,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 74.84652724201908,
+      "source_time": 150.91625550632463,
+      "gap": 1.6711069443220838e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 74.95194516237711,
+      "source_time": 151.02644424953536,
+      "gap": 4.871083751574258e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 75.06787356600512,
+      "source_time": 151.13657592223532,
+      "gap": 4.996003610813204e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 75.18678493700804,
+      "source_time": 151.2466606665377,
+      "gap": 4.871083751574258e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 75.30695703694016,
+      "source_time": 151.3567086995281,
+      "gap": 2.435541875787129e-16,
+      "geometric_contact": true,
+      "attacker": 0
+    },
+    {
+      "time": 75.41557368540089,
+      "source_time": 151.466730316774,
+      "gap": 4.775249788392736e-16,
       "geometric_contact": true,
       "attacker": 0
     }
@@ -1818,6 +2003,6 @@
   "limitations": [
     "Procedural animation with anatomical IK, not motion capture or validated human kinetics. Force-enhanced jumps and staff spins are intentionally stylized.",
     "Ground fracture is an authored cinematic effect, not finite-element stress simulation.",
-    "Three acts share motifs but vary attack density, initiative, camera coverage and weapon states."
+    "The presented 90-second director cut selects seven unique sections from legacy source timing. Discarded repeated acts are never played; source time remains internal for deterministic effect calibration."
   ]
 }

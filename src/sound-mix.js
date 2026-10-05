@@ -1,4 +1,5 @@
 import {ASSAULT_BEATS,TRANSFER} from './weapon-transfer.js';
+import {FINAL_CUTS} from './story-times.js';
 
 /** Music leads. Foley accents are authored story beats, never a random volume lottery. */
 export const FILM_MIX=Object.freeze({music:.86,swingBed:.24,swingAccent:.64,clashBed:.26,clashAccent:.70,swingDuckBed:.012,swingDuckAccent:.06,clashDuckBed:.018,clashDuckAccent:.09});
@@ -6,7 +7,7 @@ const beat=60/168;
 export const SOUND_ACCENTS=Object.freeze([
   ...[0,48,96].flatMap(act=>[16*beat,29*beat,16.0,26.3,37.5,47.5].map(t=>t+act)).filter(t=>t<TRANSFER.prepare),
   186*beat,188*beat,250*beat,324*beat,TRANSFER.launch,TRANSFER.catch,
-  ...[0,18,39,57,66].map(i=>ASSAULT_BEATS[i]),418*beat,425*beat,432*beat,
+  ...[0,18,39,57,ASSAULT_BEATS.length-1].map(i=>ASSAULT_BEATS[i]),...FINAL_CUTS,
 ].sort((a,b)=>a-b));
 const smooth=u=>{u=Math.max(0,Math.min(1,u));return u*u*(3-2*u);};
 export function soundMixAt(t){

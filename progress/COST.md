@@ -1,22 +1,22 @@
 # Eclipse · experiment 003
 
-Measured as of 2026-10-04T14:59:33.490Z UTC. Snapshot: 2026-10-04T14:59:50.727Z.
+Measured as of 2026-10-05T01:20:42.779Z UTC. Snapshot: 2026-10-05T01:21:05.574Z.
 
 Model: **gpt-6.1-sol** · effort: **max** · service tier: not recorded.
 
 | Metric | Value |
 |---|---:|
-| Elapsed development | 194.12 minutes |
-| Logged active time | 187.84 minutes |
-| Input | 38,524,136 |
-| Cached input, subset | 37,654,656 |
+| Elapsed development | 815.36 minutes |
+| Logged active time | 296.15 minutes |
+| Input | 60,088,339 |
+| Cached input, subset | 58,577,664 |
 | Cache writes, subset | 0 |
-| Uncached input | 869,480 |
-| Output, including reasoning | 374,814 |
-| Reasoning, subset | 212,757 |
-| Input + output | 38,898,950 |
-| Standard API-equivalent | $12.121210 USD |
-| Fast API-equivalent, if selected | $24.242420 USD |
+| Uncached input | 1,510,675 |
+| Output, including reasoning | 514,232 |
+| Reasoning, subset | 306,487 |
+| Input + output | 60,602,571 |
+| Standard API-equivalent | $18.725993 USD |
+| Fast API-equivalent, if selected | $37.451987 USD |
 
 **API-equivalent estimate, not an invoice or subscription charge.** Verified October 4, 2026 from [official OpenAI pricing](https://developers.openai.com/api/docs/pricing) and [model notes](https://developers.openai.com/api/docs/models/gpt-6.1-sol). Standard short-context rates per million: $2 uncached input, $0.10 cached input, $2.50 cache writes, $10 output. Above 272,000 input tokens per request: $4 / $0.20 / $5 / $15. Each request is priced independently.
 

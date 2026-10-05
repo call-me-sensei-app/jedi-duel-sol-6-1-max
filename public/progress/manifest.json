@@ -16,7 +16,9 @@
         "reasoning_output_tokens": 4440,
         "total_tokens": 1207686
       },
-      "api_equivalent_usd": 0.5701063999999999
+      "api_equivalent_usd": 0.5701063999999999,
+      "activeSeconds": 588.42,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Grounded two-hand combat, double-ended staff, heavy rain, detailed masonry, live cost HUD",
@@ -32,7 +34,9 @@
         "reasoning_output_tokens": 28374,
         "total_tokens": 4292328
       },
-      "api_equivalent_usd": 1.6478895999999998
+      "api_equivalent_usd": 1.6478895999999998,
+      "activeSeconds": 2127.207,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Inverted over-head somersault, grounded anatomy, saber recoil and three-act narrative",
@@ -48,7 +52,9 @@
         "reasoning_output_tokens": 49154,
         "total_tokens": 7580653
       },
-      "api_equivalent_usd": 2.4907427999999996
+      "api_equivalent_usd": 2.4907427999999996,
+      "activeSeconds": 3106.082,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Directed edge-to-center leap, sustained over-shoulder coverage, fluid camera transitions",
@@ -64,7 +70,9 @@
         "reasoning_output_tokens": 77527,
         "total_tokens": 11931771
       },
-      "api_equivalent_usd": 4.033829999999999
+      "api_equivalent_usd": 4.033829999999999,
+      "activeSeconds": 4710.622,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Wet rectangular pillar cleave, debris separation, immediate aerial follow-up",
@@ -80,7 +88,9 @@
         "reasoning_output_tokens": 102368,
         "total_tokens": 14661785
       },
-      "api_equivalent_usd": 5.2010248
+      "api_equivalent_usd": 5.2010248,
+      "activeSeconds": 5582.486,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Staff split, upward disarm and blue/red dual-wield reversal — ghost blade fixed",
@@ -96,7 +106,9 @@
         "reasoning_output_tokens": 102368,
         "total_tokens": 14661785
       },
-      "api_equivalent_usd": 5.2010248
+      "api_equivalent_usd": 5.2010248,
+      "activeSeconds": 5582.878,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Guard-breaking hit, rectangular pillar collapse, one-second recovery and wall kick",
@@ -112,7 +124,9 @@
         "reasoning_output_tokens": 117059,
         "total_tokens": 16693870
       },
-      "api_equivalent_usd": 5.991757
+      "api_equivalent_usd": 5.991757,
+      "activeSeconds": 6203.74,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Three final metallic cuts, slow contact and timed lightning",
@@ -128,7 +142,9 @@
         "reasoning_output_tokens": 117059,
         "total_tokens": 16693870
       },
-      "api_equivalent_usd": 5.991757
+      "api_equivalent_usd": 5.991757,
+      "activeSeconds": 6204.231,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Natural arms-down victory stance, saber holster and cinematic pullout",
@@ -144,7 +160,9 @@
         "reasoning_output_tokens": 117059,
         "total_tokens": 16693870
       },
-      "api_equivalent_usd": 5.991757
+      "api_equivalent_usd": 5.991757,
+      "activeSeconds": 6204.713,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Captured red saber toss with gravity, damped bounces, tumble and ground settling",
@@ -160,7 +178,9 @@
         "reasoning_output_tokens": 117059,
         "total_tokens": 16693870
       },
-      "api_equivalent_usd": 5.991757
+      "api_equivalent_usd": 5.991757,
+      "activeSeconds": 6205.237,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Supplied Jedi Experiment soundtrack, onset-conformed slow motion and researched saber sound layers",
@@ -176,7 +196,9 @@
         "reasoning_output_tokens": 135206,
         "total_tokens": 22588334
       },
-      "api_equivalent_usd": 7.148661000000004
+      "api_equivalent_usd": 7.148661000000004,
+      "activeSeconds": 7351.508,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Final live clash: linked music at 1×, original rushing/buzzing saber layers and visible token/time/USD ledger",
@@ -192,7 +214,9 @@
         "reasoning_output_tokens": 136238,
         "total_tokens": 23006992
       },
-      "api_equivalent_usd": 7.213852200000003
+      "api_equivalent_usd": 7.213852200000003,
+      "activeSeconds": 7427.576,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Movie end: final pullout, full fade, soundtrack stop at 2:47.759 and explicit replay",
@@ -208,7 +232,9 @@
         "reasoning_output_tokens": 140615,
         "total_tokens": 24554202
       },
-      "api_equivalent_usd": 7.463952200000003
+      "api_equivalent_usd": 7.463952200000003,
+      "activeSeconds": 7630.148,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Readable upward disarm, multiple airborne spins, full retreat footwork and dedicated wide coverage",
@@ -224,7 +250,9 @@
         "reasoning_output_tokens": 163371,
         "total_tokens": 30566016
       },
-      "api_equivalent_usd": 9.117066600000003
+      "api_equivalent_usd": 9.117066600000003,
+      "activeSeconds": 8818.569,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Light fighter steps back, frees his left hand and catches the hilt in a dedicated close shot",
@@ -240,7 +268,9 @@
         "reasoning_output_tokens": 163371,
         "total_tokens": 30566016
       },
-      "api_equivalent_usd": 9.117066600000003
+      "api_equivalent_usd": 9.117066600000003,
+      "activeSeconds": 8819.053,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "67 alternating blue/red attacks accelerate into the three finishing cuts",
@@ -256,7 +286,9 @@
         "reasoning_output_tokens": 163371,
         "total_tokens": 30566016
       },
-      "api_equivalent_usd": 9.117066600000003
+      "api_equivalent_usd": 9.117066600000003,
+      "activeSeconds": 8819.516,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Motion-driven air sweep and stereo rain/patter — initial louder mix",
@@ -274,7 +306,9 @@
       },
       "api_equivalent_usd": 10.629362800000001,
       "recordedAt": "2026-10-04T14:55:38.148Z",
-      "snapshotNote": "Actual image file capture time; counters reconstructed from completed usage events at or before capture. Screenshot HUD refreshes every eight seconds."
+      "snapshotNote": "Actual image file capture time; counters reconstructed from completed usage events at or before capture. Screenshot HUD refreshes every eight seconds.",
+      "activeSeconds": 10115.929,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Separate electrical spark/clash bus — initial foreground mix before music-first rebalance",
@@ -292,7 +326,9 @@
       },
       "api_equivalent_usd": 11.5380794,
       "recordedAt": "2026-10-04T14:55:38.475Z",
-      "snapshotNote": "Actual image file capture time; counters reconstructed from completed usage events at or before capture. Screenshot HUD refreshes every eight seconds."
+      "snapshotNote": "Actual image file capture time; counters reconstructed from completed usage events at or before capture. Screenshot HUD refreshes every eight seconds.",
+      "activeSeconds": 10803.997,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
     },
     {
       "stage": "Music-first mix: quieter air/contact, brief authored story accents, live score/rain/sparks",
@@ -310,7 +346,199 @@
       },
       "api_equivalent_usd": 11.975165,
       "recordedAt": "2026-10-04T14:58:57.308Z",
-      "snapshotNote": "Actual image file capture time; counters reconstructed from completed usage events at or before capture. Screenshot HUD refreshes every eight seconds."
+      "snapshotNote": "Actual image file capture time; counters reconstructed from completed usage events at or before capture. Screenshot HUD refreshes every eight seconds.",
+      "activeSeconds": 11136.956,
+      "activeTimeNote": "Logged active time reconstructed from session intervals; original elapsed-wall and token snapshots are retained."
+    },
+    {
+      "stage": "Connected combo rebuild: 470 authored cuts with attack-specific anticipations and parries",
+      "frame": "020-connected-combos-and-anticipatory-parries.jpg",
+      "capturedAt": "2026-10-04T23:29:47.939Z",
+      "elapsedSeconds": 42244.231,
+      "tokenUsageAsOf": "2026-10-04T23:29:27.749Z",
+      "tokens": {
+        "input_tokens": 44858186,
+        "cached_input_tokens": 43723904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 404220,
+        "reasoning_output_tokens": 231054,
+        "total_tokens": 45262406
+      },
+      "api_equivalent_usd": 13.5517986,
+      "recordedAt": "2026-10-04T23:32:42.598Z",
+      "activeSeconds": 12531.337,
+      "snapshotNote": "Actual image capture time; counters reconstructed from completed usage events at or before capture. Active time excludes overnight idle. HUD refreshes every eight seconds."
+    },
+    {
+      "stage": "Initial branching Force volley caught on the blue defensive blade",
+      "frame": "021-force-lightning-deflected-by-blue-guard.jpg",
+      "capturedAt": "2026-10-04T23:33:33.166Z",
+      "elapsedSeconds": 42469.458,
+      "tokenUsageAsOf": "2026-10-04T23:33:20.562Z",
+      "tokens": {
+        "input_tokens": 45835875,
+        "cached_input_tokens": 44689408,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 409030,
+        "reasoning_output_tokens": 235030,
+        "total_tokens": 46244905
+      },
+      "api_equivalent_usd": 13.720819,
+      "recordedAt": "2026-10-04T23:59:22.132Z",
+      "activeSeconds": 12756.564,
+      "snapshotNote": "Actual image capture time; counters reconstructed from completed usage events at or before capture. Active time excludes overnight idle. HUD refreshes every eight seconds."
+    },
+    {
+      "stage": "Final Force lightning: casting hand to wet block pillar, localized rain lighting and reflections",
+      "frame": "022-force-lightning-lifting-wet-block-pillar.jpg",
+      "capturedAt": "2026-10-04T23:52:55.869Z",
+      "elapsedSeconds": 43632.161,
+      "tokenUsageAsOf": "2026-10-04T23:52:26.079Z",
+      "tokens": {
+        "input_tokens": 49381990,
+        "cached_input_tokens": 48093568,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 436804,
+        "reasoning_output_tokens": 252773,
+        "total_tokens": 49818794
+      },
+      "api_equivalent_usd": 15.107342200000001,
+      "recordedAt": "2026-10-04T23:59:22.384Z",
+      "activeSeconds": 13919.267,
+      "snapshotNote": "Actual image capture time; counters reconstructed from completed usage events at or before capture. Active time excludes overnight idle. HUD refreshes every eight seconds."
+    },
+    {
+      "stage": "Live reactive parries and counterbarrage with music-led audio",
+      "frame": "023-live-reactive-defence-and-counterbarrage.jpg",
+      "capturedAt": "2026-10-04T23:53:43.389Z",
+      "elapsedSeconds": 43679.681,
+      "tokenUsageAsOf": "2026-10-04T23:52:55.979Z",
+      "tokens": {
+        "input_tokens": 49677561,
+        "cached_input_tokens": 48387840,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 436946,
+        "reasoning_output_tokens": 252773,
+        "total_tokens": 50114507
+      },
+      "api_equivalent_usd": 15.173522600000002,
+      "recordedAt": "2026-10-04T23:59:22.635Z",
+      "activeSeconds": 13966.787,
+      "snapshotNote": "Actual image capture time; counters reconstructed from completed usage events at or before capture. Active time excludes overnight idle. HUD refreshes every eight seconds."
+    },
+    {
+      "stage": "Compressed finishing sequence: rechamber before the second cut, no 2.5-second resets",
+      "frame": "024-chained-finishing-cuts-without-long-resets.jpg",
+      "capturedAt": "2026-10-04T23:56:32.287Z",
+      "elapsedSeconds": 43848.579,
+      "tokenUsageAsOf": "2026-10-04T23:55:49.634Z",
+      "tokens": {
+        "input_tokens": 50278211,
+        "cached_input_tokens": 48981248,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 440411,
+        "reasoning_output_tokens": 255788,
+        "total_tokens": 50718622
+      },
+      "api_equivalent_usd": 15.373147200000002,
+      "recordedAt": "2026-10-04T23:59:22.893Z",
+      "activeSeconds": 14135.685,
+      "snapshotNote": "Actual image capture time; counters reconstructed from completed usage events at or before capture. Active time excludes overnight idle. HUD refreshes every eight seconds."
+    },
+    {
+      "stage": "90-second single-pass edit: sole bind-break and dash, initial wide framing",
+      "frame": "025-90-second-single-bind-break-and-dash.jpg",
+      "capturedAt": "2026-10-05T00:55:10.593Z",
+      "elapsedSeconds": 47366.885,
+      "tokenUsageAsOf": "2026-10-05T00:53:51.996Z",
+      "tokens": {
+        "input_tokens": 56441280,
+        "cached_input_tokens": 55061504,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 484552,
+        "reasoning_output_tokens": 288282,
+        "total_tokens": 56925832
+      },
+      "api_equivalent_usd": 17.582565400000004,
+      "recordedAt": "2026-10-05T01:19:34.084Z",
+      "activeSeconds": 16214.158,
+      "captureNote": "Captured in the actual browser. Usage reconstructed from completed session counters at capture time; HUD polling can lag by up to eight seconds."
+    },
+    {
+      "stage": "Rapid independent two-blade barrage: initial shoulder framing before wider sweep revision",
+      "frame": "026-rapid-overlapping-dual-blade-barrage.jpg",
+      "capturedAt": "2026-10-05T01:11:26.180Z",
+      "elapsedSeconds": 48342.472,
+      "tokenUsageAsOf": "2026-10-05T01:11:14.817Z",
+      "tokens": {
+        "input_tokens": 57825839,
+        "cached_input_tokens": 56387072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 501524,
+        "reasoning_output_tokens": 301109,
+        "total_tokens": 58327363
+      },
+      "api_equivalent_usd": 18.236038200000007,
+      "recordedAt": "2026-10-05T01:19:34.320Z",
+      "activeSeconds": 17189.745,
+      "captureNote": "Captured in the actual browser. Usage reconstructed from completed session counters at capture time; HUD polling can lag by up to eight seconds."
+    },
+    {
+      "stage": "Film ends at 01:30 with score stopped and development ledger visible",
+      "frame": "027-90-second-film-ending-and-ledger.jpg",
+      "capturedAt": "2026-10-05T01:12:52.141Z",
+      "elapsedSeconds": 48428.433,
+      "tokenUsageAsOf": "2026-10-05T01:12:40.720Z",
+      "tokens": {
+        "input_tokens": 58300656,
+        "cached_input_tokens": 56827648,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 503081,
+        "reasoning_output_tokens": 301659,
+        "total_tokens": 58803737
+      },
+      "api_equivalent_usd": 18.36414780000001,
+      "recordedAt": "2026-10-05T01:19:34.550Z",
+      "activeSeconds": 17275.706,
+      "captureNote": "Captured in the actual browser. Usage reconstructed from completed session counters at capture time; HUD polling can lag by up to eight seconds."
+    },
+    {
+      "stage": "Two-sword cut and opposing parry: paused inspection before sweep-amplitude revision",
+      "frame": "028-two-blade-cross-cuts-and-active-parries.jpg",
+      "capturedAt": "2026-10-05T01:13:19.393Z",
+      "elapsedSeconds": 48455.685,
+      "tokenUsageAsOf": "2026-10-05T01:13:01.463Z",
+      "tokens": {
+        "input_tokens": 58491370,
+        "cached_input_tokens": 57015168,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 503357,
+        "reasoning_output_tokens": 301728,
+        "total_tokens": 58994727
+      },
+      "api_equivalent_usd": 18.392047800000007,
+      "recordedAt": "2026-10-05T01:19:34.805Z",
+      "activeSeconds": 17302.958,
+      "captureNote": "Captured in the actual browser. Usage reconstructed from completed session counters at capture time; HUD polling can lag by up to eight seconds."
+    },
+    {
+      "stage": "Wild reciprocal left-right sweeps: broad torso rotation, active music and sound effects",
+      "frame": "029-wild-left-right-two-sword-sweeps.jpg",
+      "capturedAt": "2026-10-05T01:17:48.803Z",
+      "elapsedSeconds": 48725.095,
+      "tokenUsageAsOf": "2026-10-05T01:17:26.710Z",
+      "tokens": {
+        "input_tokens": 59589098,
+        "cached_input_tokens": 58086784,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 509614,
+        "reasoning_output_tokens": 304318,
+        "total_tokens": 60098712
+      },
+      "api_equivalent_usd": 18.61400340000001,
+      "recordedAt": "2026-10-05T01:19:35.059Z",
+      "activeSeconds": 17572.368,
+      "captureNote": "Captured in the actual browser. Usage reconstructed from completed session counters at capture time; HUD polling can lag by up to eight seconds."
     }
   ]
 }

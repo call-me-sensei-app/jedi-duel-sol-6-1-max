@@ -1,24 +1,24 @@
 {
-  "verified_at": "2026-10-04T14:59:21.237Z",
+  "verified_at": "2026-10-05T01:20:35.860Z",
   "url": "http://127.0.0.1:5175/",
   "browser": "Codex In-app Browser",
   "desktop": {
     "viewport": "1283×1342",
     "pixel_ratio": 1,
-    "fps": "72–98 FPS in music-first live playback samples",
+    "fps": "72 FPS at the final broad-sweep playback sample",
     "three_revision": "186",
-    "draw_calls_at_sample": 911,
-    "triangles_at_sample": 376732,
-    "geometries": 253,
+    "draw_calls_at_sample": 1374,
+    "triangles_at_sample": 424008,
+    "geometries": 272,
     "textures": 22
   },
   "audio": {
     "context_state": "running",
     "enabled_by_click": true,
-    "emitted_clash_sounds": 67,
-    "emitted_motion_sweeps": 376,
-    "visual_clash_events": 167,
-    "note": "Motion/contact/rain graph execution and gain envelopes verified, not subjective headphone/speaker calibration."
+    "emitted_clash_sounds": 2,
+    "emitted_motion_sweeps": 7,
+    "visual_clash_events": 160,
+    "note": "Latest screenshot sample was shortly after enabling audio and seeking. These counters are cumulative across that page instance, not unique authored contacts. Music was playing at 1× with gain 0.855; air/electrical contact and stereo rain buses were active. Subjective speaker/headphone balance is not claimed."
   },
   "console_errors": [],
   "historical_warnings": [
@@ -128,12 +128,85 @@
     {
       "name": "39 tests pass; no console errors in the music-first revision",
       "passed": true
+    },
+    {
+      "name": "Connected broad cuts carry from contact through follow-through into the next chamber",
+      "passed": true
+    },
+    {
+      "name": "Defenders anticipate four incoming lanes and visibly yield on contact",
+      "passed": true
+    },
+    {
+      "name": "Later combinations contain deliberate two-cut riposte interruptions",
+      "passed": true
+    },
+    {
+      "name": "Opposing defense stays reactive during the final 93-strike dual-saber assault",
+      "passed": true
+    },
+    {
+      "name": "Three finishing cuts are closely chained, not separated by 2.5-second resets",
+      "passed": true
+    },
+    {
+      "name": "Force lightning connects the casting hand to the defended blade / lifted masonry pillar",
+      "passed": true
+    },
+    {
+      "name": "Rain, ripples and splashes receive localized Force-light illumination with no shader errors",
+      "passed": true
+    },
+    {
+      "name": "Normal score clock remains smooth, without multi-speed lurches after story cues",
+      "passed": true
+    },
+    {
+      "name": "Earlier source revision: 52 tests pass and 6600 anatomy/contact poses are verified",
+      "passed": true
+    },
+    {
+      "name": "90-second timeline and local soundtrack edit agree; full original music is intact",
+      "passed": true
+    },
+    {
+      "name": "Exactly one shared backward leap and forward dash survive the full-film sampling test",
+      "passed": true
+    },
+    {
+      "name": "279 retained attack beats and 268 sampled real blade contacts across 3600 film poses",
+      "passed": true
+    },
+    {
+      "name": "Post-catch paired-blade barrage retains 128 cuts, ramping from roughly 5 to 9 strikes per film second",
+      "passed": true
+    },
+    {
+      "name": "Both swords use overlapping independent broad reciprocal left-right arcs; wrists and blade chambers remain continuous",
+      "passed": true
+    },
+    {
+      "name": "Torso rotation powers both sweeping directions without strike-frequency stance bobbing",
+      "passed": true
+    },
+    {
+      "name": "Active attacking blade meets the anticipated defensive blade at more than 90% of full-source paired contacts",
+      "passed": true
+    },
+    {
+      "name": "62 tests pass, including paired-blade width, continuity, anatomy, contact and non-repeated editorial cuts",
+      "passed": true
+    },
+    {
+      "name": "Final playback sample has running audio, original-speed music, air swings and stereo heavy rain; title is hidden",
+      "passed": true
     }
   ],
   "not_tested": [
     "Mobile GPU/device performance",
     "Fullscreen browser integration",
-    "Subjective headphone/speaker mix quality"
+    "Subjective headphone/speaker mix quality",
+    "Artistic parity or superiority to Opus cannot be established by automated tests; no blinded/frame-matched quality evaluation was performed."
   ],
   "evidence": [
     "005-pillar-impact-and-recovery.jpg",
@@ -149,20 +222,27 @@
     "016-escalating-dual-saber-assault.jpg",
     "017-motion-driven-air-wroom-and-heavy-rain.jpg",
     "018-electric-wire-spark-clash-mix.jpg",
-    "019-music-first-moment-accent-mix.jpg"
+    "019-music-first-moment-accent-mix.jpg",
+    "020-connected-combos-and-anticipatory-parries.jpg",
+    "021-force-lightning-deflected-by-blue-guard.jpg",
+    "022-force-lightning-lifting-wet-block-pillar.jpg",
+    "023-live-reactive-defence-and-counterbarrage.jpg",
+    "024-chained-finishing-cuts-without-long-resets.jpg",
+    "025-90-second-single-bind-break-and-dash.jpg",
+    "026-rapid-overlapping-dual-blade-barrage.jpg",
+    "027-90-second-film-ending-and-ledger.jpg",
+    "028-two-blade-cross-cuts-and-active-parries.jpg",
+    "029-wild-left-right-two-sword-sweeps.jpg"
   ],
   "score": {
-    "source": "Jedi Experiment.wav",
-    "duration_seconds": 167.76,
-    "linked_locally": true,
-    "music_playing_at_sample": true,
-    "playback_rate_at_sample": 1,
-    "music_seconds_at_sample": 52.95,
-    "authored_seconds_at_sample": 52.931,
-    "sync_landmarks": 304,
-    "method": "Local onset analysis and monotone cubic animation-time conform, not perfect manual downbeat transcription."
+    "track": "Jedi Experiment / local 90-second director cut",
+    "file": "/audio/jedi-experiment-90s.mp3",
+    "duration_seconds": 90,
+    "playback_rate": 1,
+    "original_pitch_and_tempo_preserved": true,
+    "full_original_preserved": true
   },
-  "console_error_window": "Music-first audio revision, after 2026-10-04T14:56:00Z",
+  "console_error_window": "No errors from the final revision after 2026-10-05T01:16:00Z in the captured log query.",
   "historical_errors": [
     {
       "at": "2026-10-04T13:38:52.986Z",
@@ -170,11 +250,12 @@
     }
   ],
   "ending_verification": {
-    "verified_at": "2026-10-04T13:52:54.194535+00:00",
+    "verified_at": "2026-10-05T01:12:52.141Z",
     "film_ended": true,
     "paused": true,
-    "authored_seconds": 164.999,
-    "music_seconds": 167.759,
+    "film_seconds": 89.999,
+    "source_seconds": 164.999,
+    "music_seconds": 90,
     "music_playing": false,
     "restarted_after_check": true
   },
@@ -229,5 +310,88 @@
     },
     "score_rate": 1,
     "console_errors": []
+  },
+  "pacing_revision": {
+    "verified_at": "2026-10-05T00:01:25.245Z",
+    "reference": "https://x.com/DanielZambrini/status/2105756266211729596/video/1",
+    "reference_method": "Browser inspection of the Opus-labelled video segment; qualitative direction, not a blinded or frame-matched quality test.",
+    "authored_attack_beats": 496,
+    "sampled_geometric_contacts": 477,
+    "prior_committed_beats": 297,
+    "prior_committed_contacts": 233,
+    "connected_ordinary_events": 392,
+    "assault_events": 93,
+    "parries": [
+      "high/roof",
+      "outside/cross-body",
+      "low/rising",
+      "side/hanging"
+    ],
+    "final_cut_span_authored_seconds": 2.142857142857139,
+    "force_lightning": {
+      "volley_inspected_at": 40.94,
+      "pillar_playback_sample_at": 87.53,
+      "segments": 91,
+      "hand_and_target_anchored": true,
+      "localized_rain_ripple_splash_lighting": true
+    },
+    "score_rate": 1,
+    "score_landmarks": 515,
+    "test_count": 52,
+    "pose_samples": 6600,
+    "console_errors_in_final_revision": [],
+    "timer": "Logged active development; overnight idle excluded from on-screen build time. Wall elapsed retained separately."
+  },
+  "previous_ending_verification": {
+    "verified_at": "2026-10-04T13:52:54.194535+00:00",
+    "film_ended": true,
+    "paused": true,
+    "authored_seconds": 164.999,
+    "music_seconds": 167.759,
+    "music_playing": false,
+    "restarted_after_check": true
+  },
+  "previous_score": {
+    "source": "Jedi Experiment.wav",
+    "duration_seconds": 167.76,
+    "linked_locally": true,
+    "music_playing_at_sample": true,
+    "playback_rate_at_sample": 1,
+    "music_seconds_at_sample": 52.95,
+    "authored_seconds_at_sample": 52.931,
+    "sync_landmarks": 304,
+    "method": "Local onset analysis and monotone cubic animation-time conform, not perfect manual downbeat transcription."
+  },
+  "director_cut_revision": {
+    "verified_at": "2026-10-05T01:20:35.860Z",
+    "duration_seconds": 90,
+    "sections": 7,
+    "shots": 34,
+    "shared_backward_leap_count": 1,
+    "shared_forward_dash_count": 1,
+    "retained_attack_beats": 279,
+    "sampled_blade_contacts": 268,
+    "retained_paired_cuts": 128,
+    "source_assault_events": 166,
+    "source_strike_gap_seconds": [
+      0.2,
+      0.11
+    ],
+    "first_film_strike_gap_seconds": 0.21342669295842143,
+    "last_film_strike_gap_seconds": 0.10861664846072472,
+    "hand_path_lateral_span_metres": 0.7564,
+    "blade_yaw_chamber_radians": [
+      -1.83,
+      1.83
+    ],
+    "torso_twist_range_radians": [
+      -0.8456,
+      0.8456
+    ],
+    "music_pitch_and_tempo": "original",
+    "test_count": 62,
+    "pose_samples": 3600,
+    "latest_evidence": "029-wild-left-right-two-sword-sweeps.jpg",
+    "limitations": "Procedural pose parameters, not motion-capture measurements or proof of artistic quality."
   }
 }

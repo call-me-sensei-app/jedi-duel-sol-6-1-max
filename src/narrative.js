@@ -1,5 +1,5 @@
+import {FINAL_CUTS} from './story-times.js';
 import * as THREE from 'three';import {Fighter} from './figure.js';import {duelState,BEAT,smooth} from './choreography.js';
-import {FINAL_CUTS} from './cinematic.js';
 import {bouncingToss} from './dynamics.js';
 import {TRANSFER,ASSAULT,flyingSaberPosition,transferPhase} from './weapon-transfer.js';
 export const STORY={split:324*BEAT,disarm:TRANSFER.launch,catch:TRANSFER.catch,cuts:FINAL_CUTS,toss:155.65,extinguish:158.10,holster:158.80,end:165};
@@ -50,6 +50,6 @@ export class Narrative{
     if(moving&&this.last<STORY.toss+.66&&t>=STORY.toss+.66)this.audio.landing(.45);
     if(t<this.last-1)this.events.clear();this.last=t;
     const phase=transferPhase(t);
-    return t>=159?'PULL OUT / END OF FILM':t>=STORY.extinguish?'THE SENTINEL / SABER EXTINGUISHED':t>=STORY.toss?'CAPTURED SABER / DISCARDED':t>=STORY.cuts[2]?'THE LIGHT REMAINS':t>=ASSAULT.end?'THREE FINAL CUTS':t>=ASSAULT.start?'DUAL-SABER ASSAULT / INCREASING PRESSURE':phase==='catch'?(t<STORY.catch?'STEP BACK / REACH FOR THE HILT':'RED SABER CAUGHT / DUAL WIELD'):t>=STORY.disarm?'SPINNING RED SABER / UPWARD DISARM':t>=STORY.split?'SPLIT STAFF / DARK DUAL WIELD':'DOUBLE-ENDED STAFF';
+    return t>=159?'PULL OUT / END OF FILM':t>=STORY.extinguish?'THE SENTINEL / SABER EXTINGUISHED':t>=STORY.toss?'CAPTURED SABER / DISCARDED':t>=STORY.cuts[2]?'THE LIGHT REMAINS':t>=ASSAULT.end?'THREE FINAL CUTS':t>=ASSAULT.start?'DUAL-SABER CROSSFIRE / LEFT-RIGHT BARRAGE':phase==='catch'?(t<STORY.catch?'STEP BACK / REACH FOR THE HILT':'RED SABER CAUGHT / DUAL WIELD'):t>=STORY.disarm?'SPINNING RED SABER / UPWARD DISARM':t>=STORY.split?'SPLIT STAFF / DARK DUAL WIELD':'DOUBLE-ENDED STAFF';
   }
 }

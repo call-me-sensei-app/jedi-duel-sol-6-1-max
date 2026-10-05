@@ -1,0 +1,1600 @@
+{
+  "source": "Jedi Experiment.wav",
+  "duration_seconds": 167.76,
+  "method": "Detected spectral transients, selected set-piece accents, and monotone cubic animation-time conform. Music remains unaltered at 1×.",
+  "estimated_bpm": 130.625,
+  "tempo_note": "Tempo candidates vary across sections; no claim of an exact steady 168 BPM. Matching uses onset landmarks rather than a global BPM assumption.",
+  "major_cues": [
+    {
+      "authored": 0,
+      "music": 0,
+      "label": "start"
+    },
+    {
+      "authored": 67.142857,
+      "music": 67.1539,
+      "label": "pillar impact"
+    },
+    {
+      "authored": 89.285714,
+      "music": 89.2936,
+      "label": "blue pillar cleave"
+    },
+    {
+      "authored": 115.71428571428572,
+      "music": 115.9031,
+      "label": "staff split"
+    },
+    {
+      "authored": 124.28571428571429,
+      "music": 124.3539,
+      "label": "upward disarm"
+    },
+    {
+      "authored": 126.42857142857143,
+      "music": 126.4591,
+      "label": "captured saber"
+    },
+    {
+      "authored": 149.28571428571428,
+      "music": 150.0256,
+      "label": "left arm"
+    },
+    {
+      "authored": 151.78571428571428,
+      "music": 153.6773,
+      "label": "right arm"
+    },
+    {
+      "authored": 154.28571428571428,
+      "music": 156.431,
+      "label": "head"
+    },
+    {
+      "authored": 155.65,
+      "music": 157.7953,
+      "label": "discarded saber"
+    },
+    {
+      "authored": 158.1,
+      "music": 160.2453,
+      "label": "blue extinguish"
+    },
+    {
+      "authored": 159,
+      "music": 161.3299,
+      "label": "final pullout"
+    },
+    {
+      "authored": 165,
+      "music": 167.76,
+      "label": "music end"
+    }
+  ],
+  "cues": [
+    {
+      "authored": 0,
+      "music": 0,
+      "label": "start"
+    },
+    {
+      "authored": 1.7857142857142858,
+      "music": 1.7857142857142858,
+      "label": "attack transient"
+    },
+    {
+      "authored": 2.142857142857143,
+      "music": 2.1018,
+      "label": "attack transient"
+    },
+    {
+      "authored": 2.5,
+      "music": 2.5,
+      "label": "attack transient"
+    },
+    {
+      "authored": 2.857142857142857,
+      "music": 2.8401,
+      "label": "attack transient"
+    },
+    {
+      "authored": 3.2142857142857144,
+      "music": 3.2142857142857144,
+      "label": "attack transient"
+    },
+    {
+      "authored": 3.5714285714285716,
+      "music": 3.5714285714285716,
+      "label": "attack transient"
+    },
+    {
+      "authored": 3.928571428571429,
+      "music": 3.9276,
+      "label": "attack transient"
+    },
+    {
+      "authored": 4.285714285714286,
+      "music": 4.285714285714286,
+      "label": "attack transient"
+    },
+    {
+      "authored": 4.642857142857143,
+      "music": 4.7059,
+      "label": "attack transient"
+    },
+    {
+      "authored": 5,
+      "music": 5,
+      "label": "attack transient"
+    },
+    {
+      "authored": 5.357142857142858,
+      "music": 5.357142857142858,
+      "label": "attack transient"
+    },
+    {
+      "authored": 5.714285714285714,
+      "music": 5.714285714285714,
+      "label": "attack transient"
+    },
+    {
+      "authored": 6.428571428571429,
+      "music": 6.3322,
+      "label": "attack transient"
+    },
+    {
+      "authored": 6.785714285714286,
+      "music": 6.785714285714286,
+      "label": "attack transient"
+    },
+    {
+      "authored": 7.142857142857143,
+      "music": 7.142857142857143,
+      "label": "attack transient"
+    },
+    {
+      "authored": 7.5,
+      "music": 7.5195,
+      "label": "attack transient"
+    },
+    {
+      "authored": 7.857142857142858,
+      "music": 7.8786,
+      "label": "attack transient"
+    },
+    {
+      "authored": 8.214285714285715,
+      "music": 8.2179,
+      "label": "attack transient"
+    },
+    {
+      "authored": 8.571428571428571,
+      "music": 8.5172,
+      "label": "attack transient"
+    },
+    {
+      "authored": 8.928571428571429,
+      "music": 8.8464,
+      "label": "attack transient"
+    },
+    {
+      "authored": 9.285714285714286,
+      "music": 9.3054,
+      "label": "attack transient"
+    },
+    {
+      "authored": 9.642857142857142,
+      "music": 9.5648,
+      "label": "attack transient"
+    },
+    {
+      "authored": 10,
+      "music": 10,
+      "label": "attack transient"
+    },
+    {
+      "authored": 10.357142857142858,
+      "music": 10.357142857142858,
+      "label": "attack transient"
+    },
+    {
+      "authored": 10.714285714285715,
+      "music": 10.7721,
+      "label": "attack transient"
+    },
+    {
+      "authored": 11.428571428571429,
+      "music": 11.3907,
+      "label": "attack transient"
+    },
+    {
+      "authored": 11.785714285714286,
+      "music": 11.8297,
+      "label": "attack transient"
+    },
+    {
+      "authored": 12.142857142857142,
+      "music": 12.2088,
+      "label": "attack transient"
+    },
+    {
+      "authored": 12.5,
+      "music": 12.5,
+      "label": "attack transient"
+    },
+    {
+      "authored": 13.214285714285715,
+      "music": 13.2664,
+      "label": "attack transient"
+    },
+    {
+      "authored": 13.571428571428571,
+      "music": 13.571428571428571,
+      "label": "attack transient"
+    },
+    {
+      "authored": 14.285714285714286,
+      "music": 14.2242,
+      "label": "attack transient"
+    },
+    {
+      "authored": 15,
+      "music": 14.9725,
+      "label": "attack transient"
+    },
+    {
+      "authored": 16.071428571428573,
+      "music": 16.071428571428573,
+      "label": "attack transient"
+    },
+    {
+      "authored": 17.142857142857142,
+      "music": 17.142857142857142,
+      "label": "attack transient"
+    },
+    {
+      "authored": 18.571428571428573,
+      "music": 18.5544,
+      "label": "attack transient"
+    },
+    {
+      "authored": 19.285714285714285,
+      "music": 19.285714285714285,
+      "label": "attack transient"
+    },
+    {
+      "authored": 20,
+      "music": 20.0011,
+      "label": "attack transient"
+    },
+    {
+      "authored": 21.071428571428573,
+      "music": 20.9789,
+      "label": "attack transient"
+    },
+    {
+      "authored": 22.142857142857142,
+      "music": 22.1263,
+      "label": "attack transient"
+    },
+    {
+      "authored": 23.214285714285715,
+      "music": 23.214285714285715,
+      "label": "attack transient"
+    },
+    {
+      "authored": 24.285714285714285,
+      "music": 24.2913,
+      "label": "attack transient"
+    },
+    {
+      "authored": 26.071428571428573,
+      "music": 26.071428571428573,
+      "label": "attack transient"
+    },
+    {
+      "authored": 28.214285714285715,
+      "music": 28.1526,
+      "label": "attack transient"
+    },
+    {
+      "authored": 28.92857142857143,
+      "music": 28.851,
+      "label": "attack transient"
+    },
+    {
+      "authored": 30.357142857142858,
+      "music": 30.357142857142858,
+      "label": "attack transient"
+    },
+    {
+      "authored": 30.714285714285715,
+      "music": 30.714285714285715,
+      "label": "attack transient"
+    },
+    {
+      "authored": 31.071428571428573,
+      "music": 30.9961,
+      "label": "attack transient"
+    },
+    {
+      "authored": 31.42857142857143,
+      "music": 31.465,
+      "label": "attack transient"
+    },
+    {
+      "authored": 31.785714285714285,
+      "music": 31.7244,
+      "label": "attack transient"
+    },
+    {
+      "authored": 32.142857142857146,
+      "music": 32.1934,
+      "label": "attack transient"
+    },
+    {
+      "authored": 32.85714285714286,
+      "music": 32.8818,
+      "label": "attack transient"
+    },
+    {
+      "authored": 33.214285714285715,
+      "music": 33.1512,
+      "label": "attack transient"
+    },
+    {
+      "authored": 33.57142857142857,
+      "music": 33.5004,
+      "label": "attack transient"
+    },
+    {
+      "authored": 33.92857142857143,
+      "music": 33.8696,
+      "label": "attack transient"
+    },
+    {
+      "authored": 34.642857142857146,
+      "music": 34.642857142857146,
+      "label": "attack transient"
+    },
+    {
+      "authored": 35,
+      "music": 34.997,
+      "label": "attack transient"
+    },
+    {
+      "authored": 35.714285714285715,
+      "music": 35.7653,
+      "label": "attack transient"
+    },
+    {
+      "authored": 36.07142857142857,
+      "music": 36.1045,
+      "label": "attack transient"
+    },
+    {
+      "authored": 36.785714285714285,
+      "music": 36.7231,
+      "label": "attack transient"
+    },
+    {
+      "authored": 37.142857142857146,
+      "music": 37.1721,
+      "label": "attack transient"
+    },
+    {
+      "authored": 37.85714285714286,
+      "music": 37.8904,
+      "label": "attack transient"
+    },
+    {
+      "authored": 38.214285714285715,
+      "music": 38.1698,
+      "label": "attack transient"
+    },
+    {
+      "authored": 38.57142857142857,
+      "music": 38.499,
+      "label": "attack transient"
+    },
+    {
+      "authored": 39.285714285714285,
+      "music": 39.2174,
+      "label": "attack transient"
+    },
+    {
+      "authored": 39.642857142857146,
+      "music": 39.6863,
+      "label": "attack transient"
+    },
+    {
+      "authored": 40,
+      "music": 40.0555,
+      "label": "attack transient"
+    },
+    {
+      "authored": 40.35714285714286,
+      "music": 40.3648,
+      "label": "attack transient"
+    },
+    {
+      "authored": 41.07142857142857,
+      "music": 41.07142857142857,
+      "label": "attack transient"
+    },
+    {
+      "authored": 42.142857142857146,
+      "music": 42.1707,
+      "label": "attack transient"
+    },
+    {
+      "authored": 43.214285714285715,
+      "music": 43.214285714285715,
+      "label": "attack transient"
+    },
+    {
+      "authored": 44.285714285714285,
+      "music": 44.256,
+      "label": "attack transient"
+    },
+    {
+      "authored": 44.642857142857146,
+      "music": 44.695,
+      "label": "attack transient"
+    },
+    {
+      "authored": 45,
+      "music": 44.9943,
+      "label": "attack transient"
+    },
+    {
+      "authored": 45.35714285714286,
+      "music": 45.3535,
+      "label": "attack transient"
+    },
+    {
+      "authored": 45.714285714285715,
+      "music": 45.7226,
+      "label": "attack transient"
+    },
+    {
+      "authored": 46.07142857142857,
+      "music": 46.1616,
+      "label": "attack transient"
+    },
+    {
+      "authored": 46.42857142857143,
+      "music": 46.431,
+      "label": "attack transient"
+    },
+    {
+      "authored": 46.785714285714285,
+      "music": 46.88,
+      "label": "attack transient"
+    },
+    {
+      "authored": 47.142857142857146,
+      "music": 47.142857142857146,
+      "label": "attack transient"
+    },
+    {
+      "authored": 47.5,
+      "music": 47.5984,
+      "label": "attack transient"
+    },
+    {
+      "authored": 49.785714285714285,
+      "music": 49.8333,
+      "label": "attack transient"
+    },
+    {
+      "authored": 50.142857142857146,
+      "music": 50.1027,
+      "label": "attack transient"
+    },
+    {
+      "authored": 50.5,
+      "music": 50.5616,
+      "label": "attack transient"
+    },
+    {
+      "authored": 50.857142857142854,
+      "music": 50.9009,
+      "label": "attack transient"
+    },
+    {
+      "authored": 51.214285714285715,
+      "music": 51.1303,
+      "label": "attack transient"
+    },
+    {
+      "authored": 51.57142857142857,
+      "music": 51.57142857142857,
+      "label": "attack transient"
+    },
+    {
+      "authored": 51.92857142857143,
+      "music": 51.8986,
+      "label": "attack transient"
+    },
+    {
+      "authored": 52.285714285714285,
+      "music": 52.1979,
+      "label": "attack transient"
+    },
+    {
+      "authored": 52.642857142857146,
+      "music": 52.5671,
+      "label": "attack transient"
+    },
+    {
+      "authored": 53,
+      "music": 53.036,
+      "label": "attack transient"
+    },
+    {
+      "authored": 53.35714285714286,
+      "music": 53.4151,
+      "label": "attack transient"
+    },
+    {
+      "authored": 53.714285714285715,
+      "music": 53.7145,
+      "label": "attack transient"
+    },
+    {
+      "authored": 54.42857142857143,
+      "music": 54.4428,
+      "label": "attack transient"
+    },
+    {
+      "authored": 54.62,
+      "music": 54.6823,
+      "label": "attack transient"
+    },
+    {
+      "authored": 54.785714285714285,
+      "music": 54.7721,
+      "label": "attack transient"
+    },
+    {
+      "authored": 55.08,
+      "music": 55.1213,
+      "label": "attack transient"
+    },
+    {
+      "authored": 55.5,
+      "music": 55.4306,
+      "label": "attack transient"
+    },
+    {
+      "authored": 55.85714285714286,
+      "music": 55.85714285714286,
+      "label": "attack transient"
+    },
+    {
+      "authored": 56.214285714285715,
+      "music": 56.2986,
+      "label": "attack transient"
+    },
+    {
+      "authored": 56.42,
+      "music": 56.4582,
+      "label": "attack transient"
+    },
+    {
+      "authored": 56.57142857142857,
+      "music": 56.578,
+      "label": "attack transient"
+    },
+    {
+      "authored": 56.87,
+      "music": 56.9172,
+      "label": "attack transient"
+    },
+    {
+      "authored": 56.92857142857143,
+      "music": 57.007,
+      "label": "attack transient"
+    },
+    {
+      "authored": 57.285714285714285,
+      "music": 57.285714285714285,
+      "label": "attack transient"
+    },
+    {
+      "authored": 57.64285714285714,
+      "music": 57.6256,
+      "label": "attack transient"
+    },
+    {
+      "authored": 57.78,
+      "music": 57.78,
+      "label": "attack transient"
+    },
+    {
+      "authored": 58,
+      "music": 57.9349,
+      "label": "attack transient"
+    },
+    {
+      "authored": 58.35714285714286,
+      "music": 58.4437,
+      "label": "attack transient"
+    },
+    {
+      "authored": 58.64,
+      "music": 58.7131,
+      "label": "attack transient"
+    },
+    {
+      "authored": 59.06,
+      "music": 59.1322,
+      "label": "attack transient"
+    },
+    {
+      "authored": 59.42857142857143,
+      "music": 59.4814,
+      "label": "attack transient"
+    },
+    {
+      "authored": 59.785714285714285,
+      "music": 59.8306,
+      "label": "attack transient"
+    },
+    {
+      "authored": 59.980000000000004,
+      "music": 60.08,
+      "label": "attack transient"
+    },
+    {
+      "authored": 60.42,
+      "music": 60.42,
+      "label": "attack transient"
+    },
+    {
+      "authored": 60.5,
+      "music": 60.5589,
+      "label": "attack transient"
+    },
+    {
+      "authored": 60.86,
+      "music": 60.7684,
+      "label": "attack transient"
+    },
+    {
+      "authored": 61.214285714285715,
+      "music": 61.2374,
+      "label": "attack transient"
+    },
+    {
+      "authored": 61.57142857142857,
+      "music": 61.57142857142857,
+      "label": "attack transient"
+    },
+    {
+      "authored": 62.285714285714285,
+      "music": 62.1952,
+      "label": "attack transient"
+    },
+    {
+      "authored": 63,
+      "music": 63.0233,
+      "label": "attack transient"
+    },
+    {
+      "authored": 64.07142857142857,
+      "music": 64.1507,
+      "label": "attack transient"
+    },
+    {
+      "authored": 65.14285714285714,
+      "music": 65.2283,
+      "label": "attack transient"
+    },
+    {
+      "authored": 66.57142857142857,
+      "music": 66.6551,
+      "label": "attack transient"
+    },
+    {
+      "authored": 67.08,
+      "music": 66.95389999999999
+    },
+    {
+      "authored": 67.142857,
+      "music": 67.1539,
+      "label": "pillar impact"
+    },
+    {
+      "authored": 67.25,
+      "music": 67.4339
+    },
+    {
+      "authored": 68,
+      "music": 68.0918,
+      "label": "attack transient"
+    },
+    {
+      "authored": 69.07142857142857,
+      "music": 69.0297,
+      "label": "attack transient"
+    },
+    {
+      "authored": 70.14285714285714,
+      "music": 70.1571,
+      "label": "attack transient"
+    },
+    {
+      "authored": 71.21428571428572,
+      "music": 71.1249,
+      "label": "attack transient"
+    },
+    {
+      "authored": 72.28571428571428,
+      "music": 72.3421,
+      "label": "attack transient"
+    },
+    {
+      "authored": 74.07142857142857,
+      "music": 74.148,
+      "label": "attack transient"
+    },
+    {
+      "authored": 76.21428571428572,
+      "music": 76.2333,
+      "label": "attack transient"
+    },
+    {
+      "authored": 76.92857142857143,
+      "music": 76.9616,
+      "label": "attack transient"
+    },
+    {
+      "authored": 78.35714285714286,
+      "music": 78.3385,
+      "label": "attack transient"
+    },
+    {
+      "authored": 78.71428571428572,
+      "music": 78.71428571428572,
+      "label": "attack transient"
+    },
+    {
+      "authored": 79.07142857142857,
+      "music": 79.0768,
+      "label": "attack transient"
+    },
+    {
+      "authored": 79.42857142857143,
+      "music": 79.5258,
+      "label": "attack transient"
+    },
+    {
+      "authored": 79.78571428571428,
+      "music": 79.8451,
+      "label": "attack transient"
+    },
+    {
+      "authored": 80.14285714285714,
+      "music": 80.2242,
+      "label": "attack transient"
+    },
+    {
+      "authored": 80.85714285714286,
+      "music": 80.9226,
+      "label": "attack transient"
+    },
+    {
+      "authored": 81.21428571428572,
+      "music": 81.182,
+      "label": "attack transient"
+    },
+    {
+      "authored": 81.57142857142857,
+      "music": 81.621,
+      "label": "attack transient"
+    },
+    {
+      "authored": 81.92857142857143,
+      "music": 81.8505,
+      "label": "attack transient"
+    },
+    {
+      "authored": 82.64285714285714,
+      "music": 82.5789,
+      "label": "attack transient"
+    },
+    {
+      "authored": 83,
+      "music": 83.0378,
+      "label": "attack transient"
+    },
+    {
+      "authored": 83.71428571428572,
+      "music": 83.7163,
+      "label": "attack transient"
+    },
+    {
+      "authored": 84.07142857142857,
+      "music": 84.0854,
+      "label": "attack transient"
+    },
+    {
+      "authored": 84.78571428571428,
+      "music": 84.78571428571428,
+      "label": "attack transient"
+    },
+    {
+      "authored": 85.14285714285714,
+      "music": 85.1031,
+      "label": "attack transient"
+    },
+    {
+      "authored": 85.85714285714286,
+      "music": 85.8714,
+      "label": "attack transient"
+    },
+    {
+      "authored": 86.21428571428572,
+      "music": 86.2705,
+      "label": "attack transient"
+    },
+    {
+      "authored": 86.57142857142857,
+      "music": 86.5698,
+      "label": "attack transient"
+    },
+    {
+      "authored": 87.28571428571428,
+      "music": 87.2183,
+      "label": "attack transient"
+    },
+    {
+      "authored": 87.64285714285714,
+      "music": 87.7172,
+      "label": "attack transient"
+    },
+    {
+      "authored": 88,
+      "music": 87.9467,
+      "label": "attack transient"
+    },
+    {
+      "authored": 88.35714285714286,
+      "music": 88.4056,
+      "label": "attack transient"
+    },
+    {
+      "authored": 89.135714,
+      "music": 88.6936
+    },
+    {
+      "authored": 89.285714,
+      "music": 89.2936,
+      "label": "blue pillar cleave"
+    },
+    {
+      "authored": 89.345714,
+      "music": 89.5136
+    },
+    {
+      "authored": 89.635714,
+      "music": 89.8036
+    },
+    {
+      "authored": 90.14285714285714,
+      "music": 90.2215,
+      "label": "attack transient"
+    },
+    {
+      "authored": 91.21428571428572,
+      "music": 91.1294,
+      "label": "attack transient"
+    },
+    {
+      "authored": 92.28571428571428,
+      "music": 92.28571428571428,
+      "label": "attack transient"
+    },
+    {
+      "authored": 92.64285714285714,
+      "music": 92.5861,
+      "label": "attack transient"
+    },
+    {
+      "authored": 93,
+      "music": 93.0052,
+      "label": "attack transient"
+    },
+    {
+      "authored": 93.35714285714286,
+      "music": 93.35714285714286,
+      "label": "attack transient"
+    },
+    {
+      "authored": 93.71428571428572,
+      "music": 93.7136,
+      "label": "attack transient"
+    },
+    {
+      "authored": 94.07142857142857,
+      "music": 93.9929,
+      "label": "attack transient"
+    },
+    {
+      "authored": 94.42857142857143,
+      "music": 94.402,
+      "label": "attack transient"
+    },
+    {
+      "authored": 94.78571428571428,
+      "music": 94.851,
+      "label": "attack transient"
+    },
+    {
+      "authored": 95.14285714285714,
+      "music": 95.1204,
+      "label": "attack transient"
+    },
+    {
+      "authored": 95.5,
+      "music": 95.5494,
+      "label": "attack transient"
+    },
+    {
+      "authored": 97.78571428571429,
+      "music": 97.8641,
+      "label": "attack transient"
+    },
+    {
+      "authored": 98.14285714285714,
+      "music": 98.1036,
+      "label": "attack transient"
+    },
+    {
+      "authored": 98.5,
+      "music": 98.5925,
+      "label": "attack transient"
+    },
+    {
+      "authored": 98.85714285714286,
+      "music": 98.8519,
+      "label": "attack transient"
+    },
+    {
+      "authored": 99.21428571428571,
+      "music": 99.261,
+      "label": "attack transient"
+    },
+    {
+      "authored": 99.57142857142857,
+      "music": 99.5303,
+      "label": "attack transient"
+    },
+    {
+      "authored": 99.92857142857143,
+      "music": 99.9693,
+      "label": "attack transient"
+    },
+    {
+      "authored": 100.28571428571429,
+      "music": 100.2587,
+      "label": "attack transient"
+    },
+    {
+      "authored": 100.64285714285714,
+      "music": 100.6678,
+      "label": "attack transient"
+    },
+    {
+      "authored": 101,
+      "music": 100.9072,
+      "label": "attack transient"
+    },
+    {
+      "authored": 101.35714285714286,
+      "music": 101.3761,
+      "label": "attack transient"
+    },
+    {
+      "authored": 101.71428571428571,
+      "music": 101.6555,
+      "label": "attack transient"
+    },
+    {
+      "authored": 102.42857142857143,
+      "music": 102.3739,
+      "label": "attack transient"
+    },
+    {
+      "authored": 102.62,
+      "music": 102.5435,
+      "label": "attack transient"
+    },
+    {
+      "authored": 102.78571428571429,
+      "music": 102.753,
+      "label": "attack transient"
+    },
+    {
+      "authored": 103.08,
+      "music": 103.0124,
+      "label": "attack transient"
+    },
+    {
+      "authored": 103.14285714285714,
+      "music": 103.1222,
+      "label": "attack transient"
+    },
+    {
+      "authored": 103.5,
+      "music": 103.4514,
+      "label": "attack transient"
+    },
+    {
+      "authored": 103.85714285714286,
+      "music": 103.85714285714286,
+      "label": "attack transient"
+    },
+    {
+      "authored": 104.21428571428572,
+      "music": 104.1399,
+      "label": "attack transient"
+    },
+    {
+      "authored": 104.42,
+      "music": 104.3893,
+      "label": "attack transient"
+    },
+    {
+      "authored": 104.57142857142857,
+      "music": 104.5789,
+      "label": "attack transient"
+    },
+    {
+      "authored": 104.87,
+      "music": 104.8383,
+      "label": "attack transient"
+    },
+    {
+      "authored": 105.28571428571429,
+      "music": 105.2873,
+      "label": "attack transient"
+    },
+    {
+      "authored": 105.64285714285714,
+      "music": 105.64285714285714,
+      "label": "attack transient"
+    },
+    {
+      "authored": 105.78,
+      "music": 105.7462,
+      "label": "attack transient"
+    },
+    {
+      "authored": 106,
+      "music": 105.9657,
+      "label": "attack transient"
+    },
+    {
+      "authored": 106.35714285714286,
+      "music": 106.3349,
+      "label": "attack transient"
+    },
+    {
+      "authored": 106.64,
+      "music": 106.6841,
+      "label": "attack transient"
+    },
+    {
+      "authored": 107.06,
+      "music": 107.153,
+      "label": "attack transient"
+    },
+    {
+      "authored": 107.42857142857143,
+      "music": 107.3625,
+      "label": "attack transient"
+    },
+    {
+      "authored": 107.78571428571429,
+      "music": 107.8115,
+      "label": "attack transient"
+    },
+    {
+      "authored": 107.98,
+      "music": 108.061,
+      "label": "attack transient"
+    },
+    {
+      "authored": 108.42,
+      "music": 108.5099,
+      "label": "attack transient"
+    },
+    {
+      "authored": 108.86,
+      "music": 108.86,
+      "label": "attack transient"
+    },
+    {
+      "authored": 109.21428571428572,
+      "music": 109.2083,
+      "label": "attack transient"
+    },
+    {
+      "authored": 109.32,
+      "music": 109.2981,
+      "label": "attack transient"
+    },
+    {
+      "authored": 109.57142857142857,
+      "music": 109.6673,
+      "label": "attack transient"
+    },
+    {
+      "authored": 110.28571428571429,
+      "music": 110.3557,
+      "label": "attack transient"
+    },
+    {
+      "authored": 111,
+      "music": 111.0541,
+      "label": "attack transient"
+    },
+    {
+      "authored": 112.07142857142857,
+      "music": 112.07142857142857,
+      "label": "attack transient"
+    },
+    {
+      "authored": 113.14285714285714,
+      "music": 113.1394,
+      "label": "attack transient"
+    },
+    {
+      "authored": 114.57142857142857,
+      "music": 114.5761,
+      "label": "attack transient"
+    },
+    {
+      "authored": 115.28571428571428,
+      "music": 115.2247,
+      "label": "attack transient"
+    },
+    {
+      "authored": 115.71428571428572,
+      "music": 115.9031,
+      "label": "staff split"
+    },
+    {
+      "authored": 117.07142857142857,
+      "music": 117.0505,
+      "label": "attack transient"
+    },
+    {
+      "authored": 118.14285714285714,
+      "music": 118.1979,
+      "label": "attack transient"
+    },
+    {
+      "authored": 119.21428571428572,
+      "music": 119.2455,
+      "label": "attack transient"
+    },
+    {
+      "authored": 120.28571428571428,
+      "music": 120.2632,
+      "label": "attack transient"
+    },
+    {
+      "authored": 122.07142857142857,
+      "music": 122.109,
+      "label": "attack transient"
+    },
+    {
+      "authored": 124.28571428571429,
+      "music": 124.3539,
+      "label": "upward disarm"
+    },
+    {
+      "authored": 126.42857142857143,
+      "music": 126.4591,
+      "label": "captured saber"
+    },
+    {
+      "authored": 126.94,
+      "music": 126.938,
+      "label": "attack transient"
+    },
+    {
+      "authored": 127.39992082836771,
+      "music": 127.39992082836771,
+      "label": "attack transient"
+    },
+    {
+      "authored": 127.85925689084645,
+      "music": 127.826,
+      "label": "attack transient"
+    },
+    {
+      "authored": 128.317461365471,
+      "music": 128.3249,
+      "label": "attack transient"
+    },
+    {
+      "authored": 128.7740160524035,
+      "music": 128.734,
+      "label": "attack transient"
+    },
+    {
+      "authored": 129.22843334377282,
+      "music": 129.2029,
+      "label": "attack transient"
+    },
+    {
+      "authored": 129.6802577360885,
+      "music": 129.6519,
+      "label": "attack transient"
+    },
+    {
+      "authored": 130.12906690118405,
+      "music": 130.1308,
+      "label": "attack transient"
+    },
+    {
+      "authored": 130.57447233905728,
+      "music": 130.5997,
+      "label": "attack transient"
+    },
+    {
+      "authored": 131.01611964193245,
+      "music": 131.0288,
+      "label": "attack transient"
+    },
+    {
+      "authored": 131.45368840336147,
+      "music": 131.4378,
+      "label": "attack transient"
+    },
+    {
+      "authored": 131.88689180926204,
+      "music": 131.88689180926204,
+      "label": "attack transient"
+    },
+    {
+      "authored": 132.31547594955796,
+      "music": 132.3956,
+      "label": "attack transient"
+    },
+    {
+      "authored": 132.73921888967632,
+      "music": 132.675,
+      "label": "attack transient"
+    },
+    {
+      "authored": 133.1579295407245,
+      "music": 133.0941,
+      "label": "attack transient"
+    },
+    {
+      "authored": 133.57144636588578,
+      "music": 133.543,
+      "label": "attack transient"
+    },
+    {
+      "authored": 133.97963595860867,
+      "music": 134.0319,
+      "label": "attack transient"
+    },
+    {
+      "authored": 134.38239152568562,
+      "music": 134.4809,
+      "label": "attack transient"
+    },
+    {
+      "authored": 134.7796313054772,
+      "music": 134.7403,
+      "label": "attack transient"
+    },
+    {
+      "authored": 135.17129694847716,
+      "music": 135.1793,
+      "label": "attack transient"
+    },
+    {
+      "authored": 135.55735188425015,
+      "music": 135.4986,
+      "label": "attack transient"
+    },
+    {
+      "authored": 135.9377796956125,
+      "music": 135.8877,
+      "label": "attack transient"
+    },
+    {
+      "authored": 136.3125825178441,
+      "music": 136.3566,
+      "label": "attack transient"
+    },
+    {
+      "authored": 136.68177947778486,
+      "music": 136.7757,
+      "label": "attack transient"
+    },
+    {
+      "authored": 137.04540518492553,
+      "music": 137.0451,
+      "label": "attack transient"
+    },
+    {
+      "authored": 137.40350828408248,
+      "music": 137.4841,
+      "label": "attack transient"
+    },
+    {
+      "authored": 137.7561500769695,
+      "music": 137.7136,
+      "label": "attack transient"
+    },
+    {
+      "authored": 138.10340321795277,
+      "music": 138.1526,
+      "label": "attack transient"
+    },
+    {
+      "authored": 138.44535048749944,
+      "music": 138.3721,
+      "label": "attack transient"
+    },
+    {
+      "authored": 138.78208364529598,
+      "music": 138.821,
+      "label": "attack transient"
+    },
+    {
+      "authored": 139.11370236371056,
+      "music": 139.1004,
+      "label": "attack transient"
+    },
+    {
+      "authored": 139.44031324118478,
+      "music": 139.3898,
+      "label": "attack transient"
+    },
+    {
+      "authored": 139.76202889424928,
+      "music": 139.76202889424928,
+      "label": "attack transient"
+    },
+    {
+      "authored": 140.07896712614368,
+      "music": 140.0283,
+      "label": "attack transient"
+    },
+    {
+      "authored": 140.3912501694659,
+      "music": 140.4673,
+      "label": "attack transient"
+    },
+    {
+      "authored": 140.69900399985914,
+      "music": 140.6469,
+      "label": "attack transient"
+    },
+    {
+      "authored": 141.0023577174488,
+      "music": 140.9462,
+      "label": "attack transient"
+    },
+    {
+      "authored": 141.30144299254852,
+      "music": 141.3254,
+      "label": "attack transient"
+    },
+    {
+      "authored": 141.5963935720497,
+      "music": 141.5963935720497,
+      "label": "attack transient"
+    },
+    {
+      "authored": 141.88734484287548,
+      "music": 141.8142,
+      "label": "attack transient"
+    },
+    {
+      "authored": 142.17443344890893,
+      "music": 142.2632,
+      "label": "attack transient"
+    },
+    {
+      "authored": 142.45779695788002,
+      "music": 142.3929,
+      "label": "attack transient"
+    },
+    {
+      "authored": 142.73757357481185,
+      "music": 142.6922,
+      "label": "attack transient"
+    },
+    {
+      "authored": 143.01390189877108,
+      "music": 142.9616,
+      "label": "attack transient"
+    },
+    {
+      "authored": 143.28692071983468,
+      "music": 143.1911,
+      "label": "attack transient"
+    },
+    {
+      "authored": 143.55676885337004,
+      "music": 143.6102,
+      "label": "attack transient"
+    },
+    {
+      "authored": 143.8235850089206,
+      "music": 143.7698,
+      "label": "attack transient"
+    },
+    {
+      "authored": 144.08750769119223,
+      "music": 144.129,
+      "label": "attack transient"
+    },
+    {
+      "authored": 144.3486751308432,
+      "music": 144.3086,
+      "label": "attack transient"
+    },
+    {
+      "authored": 144.60722524298794,
+      "music": 144.548,
+      "label": "attack transient"
+    },
+    {
+      "authored": 144.86329561153448,
+      "music": 144.7875,
+      "label": "attack transient"
+    },
+    {
+      "authored": 145.11702349768,
+      "music": 145.1267,
+      "label": "attack transient"
+    },
+    {
+      "authored": 145.36854587109386,
+      "music": 145.456,
+      "label": "attack transient"
+    },
+    {
+      "authored": 145.61799946251674,
+      "music": 145.6755,
+      "label": "attack transient"
+    },
+    {
+      "authored": 145.86552083670233,
+      "music": 145.9049,
+      "label": "attack transient"
+    },
+    {
+      "authored": 146.11124648482152,
+      "music": 146.1344,
+      "label": "attack transient"
+    },
+    {
+      "authored": 146.3553129356406,
+      "music": 146.3539,
+      "label": "attack transient"
+    },
+    {
+      "authored": 146.5978568849746,
+      "music": 146.5734,
+      "label": "attack transient"
+    },
+    {
+      "authored": 146.83901534310579,
+      "music": 146.8628,
+      "label": "attack transient"
+    },
+    {
+      "authored": 147.0789258000464,
+      "music": 147.1022,
+      "label": "attack transient"
+    },
+    {
+      "authored": 147.31772640871569,
+      "music": 147.2818,
+      "label": "attack transient"
+    },
+    {
+      "authored": 147.55555618629646,
+      "music": 147.5512,
+      "label": "attack transient"
+    },
+    {
+      "authored": 147.79255523423532,
+      "music": 147.7807,
+      "label": "attack transient"
+    },
+    {
+      "authored": 148.02886497755932,
+      "music": 148.0002,
+      "label": "attack transient"
+    },
+    {
+      "authored": 148.26462842439852,
+      "music": 148.2097,
+      "label": "attack transient"
+    },
+    {
+      "authored": 148.49999044683426,
+      "music": 148.4093,
+      "label": "attack transient"
+    },
+    {
+      "authored": 148.73509808443924,
+      "music": 148.6886,
+      "label": "attack transient"
+    },
+    {
+      "authored": 149.18571428571428,
+      "music": 149.6756
+    },
+    {
+      "authored": 149.28571428571428,
+      "music": 150.0256,
+      "label": "left arm"
+    },
+    {
+      "authored": 149.44571428571427,
+      "music": 150.3056
+    },
+    {
+      "authored": 151.68571428571428,
+      "music": 153.3273
+    },
+    {
+      "authored": 151.78571428571428,
+      "music": 153.6773,
+      "label": "right arm"
+    },
+    {
+      "authored": 151.94571428571427,
+      "music": 153.9573
+    },
+    {
+      "authored": 154.18571428571428,
+      "music": 156.08100000000002
+    },
+    {
+      "authored": 154.28571428571428,
+      "music": 156.431,
+      "label": "head"
+    },
+    {
+      "authored": 154.44571428571427,
+      "music": 156.711
+    },
+    {
+      "authored": 155.65,
+      "music": 157.7953,
+      "label": "discarded saber"
+    },
+    {
+      "authored": 158.1,
+      "music": 160.2453,
+      "label": "blue extinguish"
+    },
+    {
+      "authored": 159,
+      "music": 161.3299,
+      "label": "final pullout"
+    },
+    {
+      "authored": 165,
+      "music": 167.76,
+      "label": "music end"
+    }
+  ]
+}

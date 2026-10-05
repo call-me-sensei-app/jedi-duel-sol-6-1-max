@@ -1,16 +1,16 @@
-ECLIPSE · SUNO MUSIC BRIEF
+ECLIPSE · 90-SECOND SINGLE-PASS SCORE BRIEF
 
-Instrumental cinematic anime sword-duel score, 165 seconds, steady 168 BPM, 4/4. Heavy taiko, relentless staccato strings, dark brass, deep sub-bass, and wordless choir. Brief ominous opening, then explosive alternating attack-and-counter phrases. Escalate through three acts with sharp accents, short tension breaks, and a huge final crescendo. Three separated final orchestral hits, then a haunting sustained ending. No vocals, no lyrics, no tempo changes. Original composition—not a recreation of an existing film score.
+Suno prompt:
+Instrumental cinematic anime sword-duel score, 90 seconds, aggressive 168 BPM feel in 4/4. Heavy taiko, relentless staccato strings, dark brass, deep sub-bass and wordless choir. Brief ominous opening, then explosive attack-and-counter phrases. One escalating continuous battle, never three repeated loops. Sharp impact accents, a single dramatic bind-break and rocket dash, electric tension for a Force attack, a massive pillar impact, a brief suspended cleave accent followed immediately by driving percussion, then a surging dual-saber crescendo. Three closely chained final orchestral hits and a haunting four-second movie-ending release. No sung vocals or lyrics, no imitation of an existing film score.
 
-Suggested structure:
-0:00–0:02: quiet ominous pickup, immediate attack at beat 5.
-0:02–0:48: light/dark call-and-response, 12-strike attack phrases.
-0:48–1:36: accelerate density, heavier taiko, high brass, aerial attacks.
-1:36–2:28: full choir and brass, staff splits and weapon transfer.
-2:29.286 / 2:31.786 / 2:34.286: three separated final accents.
-2:35–2:45: sustained haunting resolution.
+Story landmarks (film clock):
+0:00–0:08: opening twelve-cut attack and dark-side answer.
+0:08–0:38: moving pressure, overhead flank, one bind/backward leap/dash; Force volley near the end.
+0:38–0:44: guarded pillar impact, short brace, explosive return.
+0:44–0:50: force-thrown masonry pillar, slow-motion blue cleave, immediate aerial pursuit.
+0:50–0:55: staff splits, red saber is disarmed into a spinning arc, blue fighter catches it.
+0:55–1:16: advancing two-saber pressure, tightly selected counter phrases and final drive.
+1:16–1:19: three chained finishing strikes.
+1:19–1:30: discarded red saber bounce, blue saber off, face close-up, final pullout and fade.
 
-Suno may not honor exact tempo, duration or cue timings. This is a creative target, not a guarantee.
-
-LOCAL SCORE SYNC
-Click ＋ SCORE and select your downloaded audio. Audio stays on your device; it is not uploaded. In Experiment Log, set the actual track BPM and first-beat offset. The audio becomes the master clock, and the fight follows the supplied beat grid. Default: 168 BPM / 0 seconds offset. No automatic beat detection is claimed. Browser autoplay rules require a user click to start sound.
+The supplied Jedi Experiment track is already used in a local, pitch/tempo-preserving 90-second edit. The full original remains untouched. Exact edit decisions are saved in progress/director-cut.json. A new track can be loaded in the preview; use its BPM/offset grid to align it manually.
